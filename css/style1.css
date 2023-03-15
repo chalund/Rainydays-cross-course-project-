@@ -1,0 +1,294 @@
+@font-face {
+    font-family: "Mulish";
+    src: url(../fonts/Mulish-Regular.ttf) format("truetype");
+}
+
+body {
+    font-family: "Mulish", "Muli", "Avenir", "Proxima Nova", "Futura";
+    background-color: #f5f5f5;
+    margin: 0px;
+    font-size: 20px;
+}
+
+
+/*header*/
+header {
+    background-color: #528386;
+    display: flex;
+}
+
+header a {
+    color: #000;
+    text-decoration: none;
+}
+.logo img {
+    width: 250px;
+    padding: 30px 30px 0px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav li {
+    display: block;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between
+}
+
+.searchbox input {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #000;
+    float: left;
+    width: 60%;
+    background: #fff;
+}
+
+.searchbox button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #000;
+    color: white;
+    font-size: 17px;
+    border: 1px solid #000;
+    border-left: none;
+    cursor: pointer;
+}
+
+.menu-icon {
+    font-size: 30px;
+    padding: 25px;
+}
+
+.shoppingbasket {
+    margin-left: 30px;
+}
+
+nav li {
+    padding: 5px 10px;
+    border: 1px solid;
+    border-radius: 20px;
+    margin: 1rem;
+    background-color: #fadb40ff;
+    width: 150px;
+    text-align: center;
+}
+
+nav li:hover {
+    background-color: #eb9316;
+}
+
+/*links*/
+a {
+    color: #000;
+}
+
+footer {
+    background-color: #000;
+    color: #F5F5F5; 
+    text-align: center;
+    padding: 1px;
+}
+
+
+/*home page*/
+.welcome img {
+    max-height: 400px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+
+
+
+.new_collection {
+    display: flex;
+}
+.shop {
+    background-color: #f5f5f5;  
+    display: flex; 
+}
+
+.shop__content {
+    display: flex;
+    text-align: center;
+    margin: 20px;
+}
+
+.shop__content > * {
+    flex: 1;
+    text-align: center;
+}
+
+.favourite h2 {
+    grid-column: -1/1; 
+}
+
+.favourite {
+    background-color: #528386;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);   
+    padding: 15px 0px 20px 35px;
+}
+
+.favourite img {
+    width: 100%;
+    height: 100%;
+}
+
+.favourite_product{
+    background-color:  #F5F5F5;
+    border: 1px solid;
+    margin: 20px 20px 80px;
+    padding: 30px 30px 0px;
+}
+
+.men_info {
+    display: flex;
+    max-height: 15em;
+    
+
+}
+
+.men {
+    flex: 1;
+}
+
+
+
+
+.men p {
+    font-size: 20px;
+}
+
+.item_1 {
+    background-color: gray;
+    color: #F5F5F5;
+    text-align: center;
+    padding-top: 1em;
+}
+
+.men_welcome {
+    width: 100%;
+    height: 100%;
+}
+
+/* contact page*/
+
+.message {
+    background-color: #528386;
+    padding: 2rem;
+}
+
+.contact-us {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-message{
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-form {
+    text-align: left;
+    background: #fff;
+    padding: 2em;
+    border-radius: 1rem;
+    margin: 3rem auto;
+    border: 1px solid;
+    max-width: 300px;
+}
+
+.contact-form input {
+    width: 250px;
+    margin-top: 6px;
+    padding: 8px;
+    font-size: 14px;
+}
+
+#formMessage {
+    padding-bottom: 3rem;
+    margin-bottom: 1rem;
+}
+
+.form-error {
+    display: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgb(184, 2, 2);
+}
+
+.form-success {
+    display: none;
+    border: 2px solid #000;
+    padding: 1rem;
+    color: #000;
+    background: rgb(139, 242, 171);
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+/* .message__us {
+    background-color: #528386;
+    text-align: center;
+    padding: 50px 60px 100px;
+}
+
+form {
+    padding: 0px 30px;
+}
+
+.form-wrapper {
+    display: flex;
+    max-width: 1000px;
+    margin: 30px auto;
+    text-align: left;
+    flex-direction: column;
+}
+
+.form-wrapper > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+input, 
+select,
+textarea {
+    background-color: #f5f5f5;
+    border: 1px solid;
+    border-radius: 5px;
+    margin: 10px 10px 10px 0px ;
+    padding: 10px;
+}
+
+textarea {
+    height: 100%;
+} */
