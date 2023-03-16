@@ -6,22 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Summary of the shopping basket on Rainydays">
     <link href="../css/style.css" rel="Stylesheet"> 
+    <link href="../css/media.css" rel="Stylesheet"> 
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
     <title>Rainydays | Order Summary</title>
 </head>
 <body>
-     <header>
-        <a href="index.html" class="logo"> <img src="../logo/RainyDays_Logo-min.png" alt="rainydays logo" width="100" height="55" ></a>
-        <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
-        <input type="checkbox" id="hamburger-menu">      
-            <nav>
-                <ul>
-                    <li><a href="../women.html">Woman</a></li>
-                    <li><a href="../men.html">Men</a></li>
-                    <li><a href="../about.html">About</a></li>
-                    <li><a href="../contact.html">Contact</a></li>
-                </ul>
-            </nav>
+    <header>
+        <section class="menu-container">
+            <div class="menu">
+                <div>
+                    <a href="index.html" class="logo"> <img src="../logo/RainyDays_Logo-min.png" alt="rainydays logo"></a>
+                </div>
+                <div class="searchbox">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="menu-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-cart-shopping shoppingbasket"></i>
+                </div>
+            </div>
+            <div class="menu-pages">
+                <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="hamburger-menu">      
+                    <nav>
+                        <ul>
+                            <li><a href="../women.html">Woman</a></li>
+                            <li><a href="../men.html">Men</a></li>
+                            <li><a href="../about.html">About</a></li>
+                            <li><a href="../contact.html">Contact</a></li>
+                        </ul> 
+                    </nav>
+            </div>
+        </section>
      </header>
      <main class="background">
         <section class="box">
