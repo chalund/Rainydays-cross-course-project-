@@ -12,6 +12,7 @@
 .welcome-container {
     max-width: 1000px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .shop {
@@ -173,39 +174,37 @@
 
 /* about page */
 .about {
-    max-width: 1000px;
     display: flex;
-    flex-direction: column-reverse;  
+    flex-direction: column-reverse
 } 
 
-.about__text {
-    padding: 0px 30px;
-} 
-
-.about__headline {
+.about__content h1 {
     text-align: center;
-    line-height: 10px;
-    font-size: 16px;
 }
 
 .about__content {
     margin: 50px auto;
+    padding: 0px 30px;
 }
 
 .about__image {
     width: 100%;
-    height: 300px
+    margin: 0 auto;
+    max-height: 30vh;
 }
 
 .about h2 {
-    font-size: 1em;
+    font-size: 20px;
 }
 
 @media (min-width: 481px) {
 .about__image {
-    padding: 10%;
-}    
+    max-width: 400px;
+    max-height: 40vh;
+    padding: 10% 20% 0%
 }
+}
+
 
 @media (min-width: 769px) {
     .about {
@@ -213,25 +212,21 @@
         flex-direction: row;
         margin: 50px auto 150px;
         padding: 30px;
+        max-width: 1000px;
+        font-size: 16px;
     }
-    
-    .about__image {
-        margin: 45px auto;
-        height: 500px;  
-    }
-    
-    .about__headline p {
-        font-size: 1em;
-    }
-    
+
     .about > * {
         flex: 1;
-        display: flex;
-        flex-direction: column;
     }
 
-
+    .about__image {
+        padding: 10% 0%;
+        max-height: 100%;
+    }
 }
+
+
 
 
 

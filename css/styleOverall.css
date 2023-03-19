@@ -26,6 +26,43 @@ header a {
     padding: 30px 30px 0px;
 }
 
+/* nav {
+    display: none;
+    position: fixed;
+    top: 80px;
+    width: 100%;
+}
+
+nav ul {
+    padding: 0px;
+}
+
+nav li {
+    display: block;
+}
+
+header {
+    width: 100%;
+    z-index: 9999;
+    position: fixed;
+}
+
+label {
+    padding: 30px;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+#hamburger-menu:checked ~ nav {
+    display: block;
+}
+
+.hidden {
+    display: none;
+} */
+
 nav ul {
     display: none
 } 
