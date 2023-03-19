@@ -232,46 +232,13 @@
             padding: 0% 5%;
         }
         
-        .about {
-            display: flex;
-            flex-direction: row;
-            margin: 50px auto 150px;
-            padding: 30px;
-        }
-        
-        .about__image {
-            margin: 45px auto;
-            height: 500px;  
-        }
-        
-        .about__headline p {
-            font-size: 1em;
-        }
-        
-        .about > * {
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-        }
+
         
          .form-wrapper {
             flex-direction: unset;
         }
         
-         .contact {
-            margin: 20px auto;
-            display: flex;
-            padding: 15px;
-            flex-direction: unset;
-        }
-        
-        .contact-wrapper {
-            margin-left: 0px;
-        }
-        
-        .contact__headline h1 {
-            margin-top: 5px;
-        }
+   
         
         .box {
             max-width: 500px;

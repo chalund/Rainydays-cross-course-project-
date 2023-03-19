@@ -33,6 +33,7 @@
                 <input type="checkbox" id="hamburger-menu">      
                     <nav>
                         <ul>
+                            <li><a href="index.html">Home</a></li>
                             <li><a href="women.html">Woman</a></li>
                             <li><a href="men.html">Men</a></li>
                             <li><a href="about.html">About</a></li>
@@ -42,37 +43,40 @@
             </div>
         </section>
      </header>
-     <main >
+     <main>
         <section class="contact">
-            <div>
-                <div class="contact__headline"> 
-                    <h1>Contact us</h1>
-                    <p>Do you have any questions?</p>
-                </div>
-                <div class="contact-wrapper">
-                    <div><i class="fa-solid fa-phone"></i></div>
-                            <div class="phone">
-                                <p> Call us </p>
-                                <p> +47 12345678</p>
-                                <p> Mon-Fri 08-17</p>
-                            </div>
-                    <div> <i class="fa-solid fa-location-dot"></i> </div>
-                            <div class="adress">
-                                <p>Adress</p>
-                                <p> Adventure road 123 </p>
-                                <p> 0012 Oslo </p>
-                                <p> Norway</p>
-                            </div>
-                    <div> <i class="fa-regular fa-envelope"></i></div>
-                            <div class="email">
-                                <p> E-mail</p>
-                                <p> rainydays@rainydays.com</p>
-                            </div>
-                </div>
+            <div class="contact_content" >
+               
+                    <div class="contact__headline"> 
+                        <h1>Contact us</h1>
+                        <p>Do you have any questions?</p>
+                    </div>
+                    <div class="contact-wrapper">
+                        <div><i class="fa-solid fa-phone"></i></div>
+                                <div class="phone">
+                                    <p> Call us </p>
+                                    <p> +47 12345678</p>
+                                    <p> Mon-Fri 08-17</p>
+                                </div>
+                        <div> <i class="fa-solid fa-location-dot"></i> </div>
+                                <div class="adress">
+                                    <p>Adress</p>
+                                    <p> Adventure road 123 </p>
+                                    <p> 0012 Oslo </p>
+                                    <p> Norway</p>
+                                </div>
+                        <div> <i class="fa-regular fa-envelope"></i></div>
+                                <div class="email">
+                                    <p> E-mail</p>
+                                    <p> rainydays@rainydays.com</p>
+                                </div>
+                    </div>
             </div>
-            <div>
-                <img src="images/will-swann-IyVfWEsb51E-unsplash.jpg" alt="cloudy forrest" class="contact__images" >
-            </div>
+      
+                <div>
+                    <img src="images/will-swann-IyVfWEsb51E-unsplash.jpg" alt="cloudy forrest" class="contact__images" >
+                </div> 
+         
         </section>
         <section class="message">
             <div class="contact-us">
@@ -81,6 +85,7 @@
                 <h2>Message us</h2>
                 <p> Do you have any questions? Please fill out the form and we'll get back to you as soon as possible.</p>
             </div>
+            <div>
                 <form class="contact-form" id="contactForm">
                         <div>
                             <label for="name">Name</label>
@@ -88,14 +93,14 @@
                             <div class="form-error" id="nameError">Please enter your name</div>
                         </div>
                         <div>
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject" placeholder="Enter your subject">
-                            <div class="form-error" id="subjectError">Please enter subject</div>
-                        </div>
-                        <div>
                             <label for="email">Email</label>
                             <input type="text" id="email" name="email" placeholder="Example@email.com">
                             <div class="form-error" id="emailError">Please enter a valid email address</div>
+                        </div>
+                        <div>
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="Enter your subject">
+                            <div class="form-error" id="subjectError">Please enter subject</div>
                         </div>
                         <div class="form-message">
                             <label for="message">Message</label>
@@ -109,22 +114,6 @@
         </section>        
      </main>
      <footer >
-            <footer-menu >
-                <div class="footer-menu">
-                    <div class="footer-icon">
-                        <a href="index.html"><i class="fa-solid fa-house"></i><p>Home</p></a>    
-                    </div>
-                    <div class="footer-icon">
-                        <a href="about.html"><i class="fa-regular fa-address-card"></i><p>About</p></a>
-                    </div>
-                    <div class="footer-icon">
-                        <a href="contact.html"><i class="fa-regular fa-envelope"></i><p>Contact</p></a>
-                    </div>
-                    <div class="footer-icon">
-                        <a href="product/summary.html"><i class="fa-solid fa-bag-shopping"></i><p>Shoppingbag</p></a>
-                    </div>
-                </div>
-            </footer-menu>
             <p>&copy; Copyright</p> 
      </footer>
 </body>
