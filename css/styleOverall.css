@@ -12,75 +12,80 @@ body {
 
 /*header*/
 header {
-    background-color: #528386;
-    display: flex;
-}
+    background-color: #629c9f;
+    width: 100%;
+  }
 
+ 
 header a {
     color: #000;
     text-decoration: none;
 }
+
+nav li:hover{
+    background-color: #ffe259;
+
+}
+
 .logo img {
     max-width: 150px;
     width: 100%;
     padding: 30px 30px 0px;
 }
 
-/* nav {
+
+
+nav {
     display: none;
-    position: fixed;
-    top: 80px;
+    background-color: #629c9f;
     width: 100%;
+    left: 0px;
+    top: 110px;
+    position: fixed;
 }
+
+
+nav li{ 
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    border: 1px solid;
+}
+
+
 
 nav ul {
-    padding: 0px;
+    margin-left: -15%;
+    margin-bottom: 0px;
 }
 
-nav li {
-    display: block;
+
+
+.menu-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
-header {
-    width: 100%;
-    z-index: 9999;
-    position: fixed;
-}
 
-label {
-    padding: 30px;
-}
 
-#hamburger-menu {
-    display: none;
-}
+
 
 #hamburger-menu:checked ~ nav {
     display: block;
 }
 
-.hidden {
+#hamburger-menu {
     display: none;
-} */
 
-nav ul {
-    display: none
-} 
-
-nav li ,
-.categories li {
-    display: block;
 }
 
-.menu {
-    display: flex;
-}
 
-.searchbox {
-    display: none;
-}
+
+
 
 .menu-icon {
+    display: none;
     font-size: 30px;
     padding: 25px;
 }
@@ -90,17 +95,12 @@ nav li ,
 }
 
 
-#hamburger-menu {
+
+
+.searchbox {
     display: none;
 }
 
-#hamburger-menu:checked ~ nav {
-    display: block;
-}
-
-.hidden {
-    display: none;
-}
 
 
 
@@ -123,17 +123,20 @@ footer {
     background-color: #ffe259;
     color: #000;
     border-radius: 30px;
-    border: 1px solid ;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
+
+
 .cta-small {
-    font-size: 1em;
-    padding: 5px 50px;
+    padding: 5px 20px;
+    margin: 0px 10px;
 }
 
 .cta-large {
-    padding: 10px 30px;
-    margin: 10px;   
+    padding: 10px 20px;
+    margin: 10px 50px;   
 }
 
 .cta-button { 
@@ -206,4 +209,159 @@ footer {
         padding: 10% 0%;
         max-height: 100%;
     }
+}
+
+
+/* contact page */
+.contact {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.contact__images {
+    width: 100%;
+    max-height: 30vh;
+}
+
+.contact__headline {
+   text-align: center;
+}
+
+.contact i {
+    font-size: 2em;
+    border-style: solid;
+    padding: 20px;
+}
+
+.contact-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+    margin: 10%
+}
+
+.phone ,
+.adress ,
+.email { 
+    margin: 20px;
+    font-size: 0.9em;
+    line-height: 4px;
+}
+
+.fa-solid.fa-location-dot {
+    padding: 20px 24px;
+} 
+
+
+
+
+.form-error {
+    display: none;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgb(184, 2, 2);
+}
+
+.form-success {
+    display: none;
+    border: 2px solid #000;
+    padding: 1rem;
+    color: #000;
+    background: rgb(139, 242, 171);
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 18px;
+}
+
+.contact-form {
+
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    border: 1px solid;
+    max-width: 200px;
+} 
+
+.contact-form input {
+    width: 150px;
+    margin-top: 6px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+#formMessage {
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+}
+
+
+
+@media (min-width: 481px) {
+    .contact__images {
+        max-height: 40vh;
+    }
+
+    .contact-wrapper{
+        margin: 0 25%;
+    }
+
+    .contact-form {
+        text-align: left;
+        background: #fff;
+        padding: 2em;
+        border-radius: 1rem;
+        margin: 1em auto;
+        border: 1px solid;
+        max-width: 300px;
+    } 
+    
+    .contact-form input {
+        width: 250px;
+        margin-top: 6px;
+        padding: 8px;
+        font-size: 14px;
+    }
+    
+   
+}
+
+@media (min-width: 769px) {
+.contact {
+    max-width: 1000px;    
+    margin: 20px auto;
+    padding: 15px;
+    display: flex;
+    flex-direction: unset;
+}
+
+.contact > * {
+flex: 1;
+}
+
+.contact__images {
+    max-height: 100%;
+    margin-top: 30%;
+}
+
+.contact-wrapper {
+    margin-left: 0px;
+}
+}
+
+
+.message {
+    background-color: #528386;
+    padding: 2rem;
+}
+
+.contact-us {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-message{
+    text-align: center;
+    /* max-width: 500px; */
+    margin: 0 auto;
 }

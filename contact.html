@@ -9,7 +9,7 @@
     <link href="css/style.css" rel="Stylesheet">
     <link href="css/media.css" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script>
-    <script src="/js/contact.js"></script> 
+    <script src="/js/contact.js" async></script> 
     <title>Rainydays | Contact</title>
 </head>
 <body>
@@ -24,8 +24,8 @@
                     <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
                 <div class="menu-icon">
-                    <i class="fa-regular fa-user"></i>
-                    <i class="fa-solid fa-cart-shopping shoppingbasket"></i>
+                    <a href="user/user.html"><i class="fa-regular fa-user"></i></a>
+                    <a href="user/shoppingcart.html"><i class="fa-solid fa-cart-shopping shoppingbasket"></i></a>
                 </div>
             </div>
             <div class="menu-pages">
@@ -46,42 +46,38 @@
      <main>
         <section class="contact">
             <div class="contact_content" >
-               
                     <div class="contact__headline"> 
                         <h1>Contact us</h1>
                         <p>Do you have any questions?</p>
                     </div>
                     <div class="contact-wrapper">
                         <div><i class="fa-solid fa-phone"></i></div>
-                                <div class="phone">
-                                    <p> Call us </p>
-                                    <p> +47 12345678</p>
-                                    <p> Mon-Fri 08-17</p>
-                                </div>
+                            <div class="phone">
+                                <p> Call us </p>
+                                <p> +47 12345678</p>
+                                <p> Mon-Fri 08-17</p>
+                             </div>
                         <div> <i class="fa-solid fa-location-dot"></i> </div>
-                                <div class="adress">
-                                    <p>Adress</p>
-                                    <p> Adventure road 123 </p>
-                                    <p> 0012 Oslo </p>
-                                    <p> Norway</p>
-                                </div>
+                            <div class="adress">
+                                <p>Adress</p>
+                                <p> Adventure road 123 </p>
+                                <p> 0012 Oslo </p>
+                                <p> Norway</p>
+                            </div>
                         <div> <i class="fa-regular fa-envelope"></i></div>
-                                <div class="email">
-                                    <p> E-mail</p>
-                                    <p> rainydays@rainydays.com</p>
-                                </div>
+                            <div class="email">
+                                <p> E-mail</p>
+                                <p> rainydays@rainydays.com</p>
+                            </div>
                     </div>
             </div>
-      
                 <div>
                     <img src="images/will-swann-IyVfWEsb51E-unsplash.jpg" alt="cloudy forrest" class="contact__images" >
                 </div> 
-         
         </section>
         <section class="message">
             <div class="contact-us">
             <div class="contact-message"> 
-                <div class="form-success" id="successMessage">Your message is sent!</div>
                 <h2>Message us</h2>
                 <p> Do you have any questions? Please fill out the form and we'll get back to you as soon as possible.</p>
             </div>
@@ -100,15 +96,15 @@
                         <div>
                             <label for="subject">Subject</label>
                             <input type="text" id="subject" name="subject" placeholder="Enter your subject">
-                            <div class="form-error" id="subjectError">Please enter subject</div>
+                            <div class="form-error" id="subjectError">Please enter a subject</div>
                         </div>
                         <div class="form-message">
-                            <label for="message">Message</label>
+                            <label for="formMessage">Message</label>
                             <input type="text " id="formMessage" name="formMessage" placeholder="Write your message here" >
                             <div class="form-error" id="messageError">You must add message</div>
                         </div>
-                        <input type="Submit" value="Send message" class="cta">
-                       
+                        <input type="Submit" value="Send message" class="cta"> 
+                        <div class="form-success" id="successMessage">Your message is sent!</div>
                 </form>
             </div>
         </section>        
