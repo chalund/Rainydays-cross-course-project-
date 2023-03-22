@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Payment method for the shopping basket on Rainydays">
+    <link href="../css/styleOverall.css" rel="Stylesheet"> 
+    <link href="../css/style.css" rel="Stylesheet"> 
+    <link href="../css/media.css" rel="Stylesheet">
+    <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
+    <title>Rainydays | Payment</title>
+</head>
+<body>
+    <header>
+        <section class="menu-container">
+            <div class="menu">
+                <div>
+                    <a href="../index.html" class="logo"> <img src="../logo/RainyDays_Logo-min.png" alt="rainydays logo"></a>
+                </div>
+                <div class="searchbox">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+                <div class="menu-icon">
+                    <i class="fa-regular fa-user"></i>
+                    <i class="fa-solid fa-cart-shopping shoppingbasket"></i>
+                </div>
+            </div>
+            <div class="menu-pages">
+                <label for="hamburger-menu"><i class="fa-solid fa-bars"></i></label>
+                <input type="checkbox" id="hamburger-menu">      
+                    <nav>
+                        <ul>
+                            <li><a href="../index.html">Home</a></li>
+                            <li><a href="../women.html">Woman</a></li>
+                            <li><a href="../men.html">Men</a></li>
+                            <li><a href="../about.html">About</a></li>
+                            <li><a href="../contact.html">Contact</a></li>
+                        </ul> 
+                    </nav>
+            </div>
+        </section>
+    </header>
+    <main>
+        <div class="payment-container">
+            <div class="checkout-line">
+                <p>1. Customer details</p>
+                <p>2. Payment</p>
+                <p>3. Success</p>
+            </div>
+            <section class="container-details">
+                <div class="payment-details">
+                    <h2>2. Payment</h2>
+                    <p>Select payment method</p>
+                        <div class="choose-payment">
+                            <div >
+                                <label for="paypal"><i class="fa-brands fa-cc-paypal"></i> </label>
+                                <input type="radio" name="paypal" id="paypal">
+                            </div>
+                            <div>
+                                <label for="">Credit card</label>
+                                <input type="radio" name="">
+                            </div>  
+                        </div>
+                        <form class="payment-form" id="paymentForm">
+                            <div>
+                                <h3>Fill out card details</h3>
+                                <div>
+                                    <label for="name on card">Name on card</label>
+                                    <input type="text" name="name on card" id="name on card">
+                                </div>
+                                <div>
+                                    <label for="email">Card number</label>
+                                    <input type="text" name="card number" id="card number">
+                                </div>
+                            </div>
+                            <div class="card-details">
+                                <div>
+                                    <label for="exp.date">Exp. Date</label>
+                                    <input type="text" name="exp.date" id="exp.date">
+                                </div>
+                                <div>
+                                    <label for="CVV">CVV </label>
+                                    <input type="text" name="CVV" id="CVV">
+                                </div>
+                            </div>
+                        </form>
+                        <div class="summary-btn">
+                            <a href="../product/success.html" class="cta cta-button">Purchase</a>
+                        </div>
+                    </div>
+                    <div class="order-summary">
+                        <h2>Order Summary</h2>
+                        <div class="order-summary-content">
+                            <div>
+                                <img src="../assets/RainyDays_Jacket1-min.png" alt="1st watch orange and gray" >
+                            </div>
+                            <div class="order-summary-details">
+                                    <div>
+                                        <h3>1st Watch</h3>
+                                        <p>Explorair 2</p>
+                                        <h4>2599 NOK</h4>
+                                    </div>
+                                    <div class="color">
+                                        <h4>Color</h4>
+                                        <p>Gray/orange</p>
+                                    </div>
+                                    <div class="dimensions">
+                                        <h4>Size</h4>
+                                        <p>L</p>
+                                    </div>
+                                    <div class="quantity">
+                                        <h4>Quantity</h4>
+                                        <p>1</p>
+                                    </div>
+                            </div>
+                        </div>
+                        <div class="order-payments">
+                            <h3>Order Summary</h3> 
+                                <div class="order-payments1">
+                                    <p>Your order</p>
+                                    <p>2599 NOK</p>
+                                </div>
+                                <div class="order-payments1">
+                                    <p>Shopping</p>
+                                    <p>FREE</p>
+                                </div>
+                                <div class="order-payments1 order-total">
+                                    <p>Order total</p>
+                                    <p>2599 NOK</p>
+                                </div>
+                        </div>  
+                       
+                </section> 
+            </div>
+        </main> 
+        <footer >
+                <p>&copy; Copyright</p> 
+        </footer>
+    </body>
+    </html>
