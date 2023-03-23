@@ -170,7 +170,7 @@
     max-height: 10vh;
 }
 
-.womens_shop_image {
+.womans_shop_image {
     background-image: url(/images/toomas-tartes-Yizrl9N_eDA-unsplash-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -180,7 +180,7 @@
     max-height: 10vh;
 }
 
-.womens_shop_text {
+.womans_shop_text {
     font-size: 26px;
     color: #fff;
     margin: -10% 10%;
@@ -339,8 +339,7 @@
 .overview-name {
     line-height: 10px;
 }
-
-amount {
+#amount {
     max-width: 50px;
 }
 
@@ -411,7 +410,7 @@ amount {
 
 /* Payment successfully */
 .success-content{
-    margin: 5vh;
+    margin: 7vh;
 }
 
 .succsess {
@@ -606,34 +605,70 @@ flex: 1;
 
 
 /* payment page*/
-.checkout-line {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-align: left;
-    max-width: 400px;
-    margin: 0 auto;
+.payment-container {
+    background-color: #fff;
 }
 
 .container-details {
     display: flex;
     flex-direction: column-reverse;
-    max-width: 500px;
-    margin: 0 auto;
 }
 
-.customer-details {
-    max-width: 400px;
-    margin: 0 auto;
+.checkout-line {
+    display: none;
+}
+
+.customer-details { 
+    margin-left: 25px;
+} 
+
+
+
+
+
+.shipping-form ,
+.payment-form {
+    display: block;
+    width: 60%;
+    margin-top: 10px;
+    padding-right: 10px;
+    text-align: left;
+}
+
+.shipping-form input ,
+.payment-form input{
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+
+
+.summary-btn {
+    margin: 20%;
+}
+   
+
+
+.choose-payment {
+    display: flex;
+}
+
+.card-details {
+    display: flex;
+}
+
+.card-details input {
+    max-width: 90px;
+} 
+
+/* order summary-section*/
+.order-summary h2 {
+    text-align: center;
 }
 
 .order-summary-content img {
-    width: 100%;
-    max-width: 150px;
-}
-
-.order-summary h2 {
-    text-align: center;
+    min-width: 100%;
+    max-width: 100px;
 }
 
 .order-summary-content {
@@ -648,8 +683,8 @@ flex: 1;
 }
 
 .order-payments {
-    border-top: 2px solid;
-    font-size: 12px;
+    border-top: 1px solid #dadada;
+    font-size: 14px;
     padding: 0px 40px;
 }
 
@@ -662,88 +697,68 @@ flex: 1;
    justify-content: space-between;
 }
 
-.summary-btn {
-    display: none;
-}
-
-
-
-
-.order-summary {
-    /* margin-top: 15px; */
-    height: 500px;
-    padding: 20px;
-    border: 1px solid #dadada;
-}
-
-.shipping-form ,
-.payment-form {
-    display: block;
-    width: 60%;
-    margin-top: 10px;
-    padding-right: 10px;
-    text-align: left;
-}
-
-.shipping-form input ,
-.payment-form input{
-    font-size: 16px;
-    padding: 8px 10px;
-}
-
-
-
-
-   
 .color, 
 .dimensions, 
 .quantity {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-} 
-
-.choose-payment {
-    display: flex;
-}
-
-.card-details {
-    display: flex;
-}
-
-.card-details input {
-    max-width: 90px;
 } 
 
 
-@media (min-width: 769px) {
-    .payment-container {
-        width: 70%;
-        padding: 0px 15px 5px;
-        margin: 20px auto 0px;
-        border: 1px solid red;
-        background-color: #fff;
-        max-width: 800px;
-        margin: 0 auto;
-    }
-    
+@media (min-width: 481px) {
     .container-details {
         flex-direction: row;
-        background: #f5f5f5;
-        border: 1px solid blue;
+        background: #fff;
     }
+
+    .checkout-line {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 10px auto;
+        border-bottom: 1px solid #dadada;
+    }
+
+    .order-summary {
+        /* margin-top: 15px; */
+        height: 500px;
+        margin-top: 25px;
+        border: 1px solid #dadada;
+    }
+
     
-    .customer-details ,
-    .payment-details {
-        flex: 2;
-        padding-left: 50px;
+    .payment-container {
+        background-color: #fff;
+        padding: 0px 15px;
+        margin: 20px auto 0px;
+        border: 1px solid #dadada;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        max-width: 500px;
+        margin: 0 auto;
     }
 
     .summary-btn {
-        display: block;
-        padding: 60px 20px;
+        padding: 25px 150px;
+        margin: 0;
     }
+
+  
+
+    .customer-details {
+        margin-left: 0%;
+    }
+
+    .order-payments {
+        font-size: 12px;
+    }
+
+     .customer-details { 
+    margin: 0 auto;
+}  
 }
+
+
 
 

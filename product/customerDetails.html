@@ -34,8 +34,8 @@
                     <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
                 <div class="menu-icon">
-                    <i class="fa-regular fa-user"></i>
-                    <i class="fa-solid fa-cart-shopping shoppingbasket"></i>
+                    <a href="../user/user.html"><i class="fa-regular fa-user"></i></a>
+                    <a href="../user/shoppingcart.html"><i class="fa-solid fa-cart-shopping shoppingbasket"></i></a>
                 </div>
             </div>
             <div class="menu-pages">
@@ -44,7 +44,7 @@
                     <nav>
                         <ul>
                             <li><a href="../index.html">Home</a></li>
-                            <li><a href="../women.html">Woman</a></li>
+                            <li><a href="../woman.html">Woman</a></li>
                             <li><a href="../men.html">Men</a></li>
                             <li><a href="../about.html">About</a></li>
                             <li><a href="../contact.html">Contact</a></li>
@@ -56,9 +56,9 @@
     <main >
         <div class="payment-container">
             <div class="checkout-line">
-                <p>1. Customer details</p>
-                <p>2. Payment</p>
-                <p>3. Success</p>
+                <a href="/product/customerDetails.html"><b>1. Customer details</b></a>
+                <a href="/product/payment.html">2. Payment</a>
+                <a href="/product/success.html">3. Success</a>
             </div>
             <section class="container-details">
                 <div class="customer-details">
@@ -101,7 +101,7 @@
                             </div>
                             <div>
                                 <input type="checkbox" name="billing address" id="billing address">
-                                <label for="billing address">Billing address same as Shipping address</label>
+                                <label for="billing address" class="billing-address">Billing address same as Shipping address</label>
                             </div>
                     </form>
                 </div>
@@ -146,10 +146,10 @@
                                 <p>2599 NOK</p>
                             </div>
                     </div>  
-                    <div class="summary-btn">
-                        <a href="../product/paymentNew.html" class="cta cta-button">Purchase</a>
-                    </div>
             </section> 
+            <div class="summary-btn">
+                <a href="../product/payment.html" class="cta cta-button">Purchase</a>
+            </div>
         </div>
     </main> 
     <footer >
