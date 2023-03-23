@@ -3,11 +3,63 @@
     background-image: url("../images/nina-luong-dy4QG5c5xWQ-unsplash-min1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 52%;
-    padding-bottom: 20%;
-    background-position-y: 200%;
+    padding-top: 10%;
+    background-position-y: 90%;
     background-position-x: 50%;
+    min-height: 30vh;
 } 
+
+.new_collection_image {
+    background-image: url("../images/toomas-tartes-Yizrl9N_eDA-unsplash-min.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    /* padding-bottom: 30%; */
+    background-position-y: 70%;
+    background-position-x: 50%;
+    min-height: 30vh;
+}
+
+@media (min-width: 481px) {
+    .new_collection_image {
+        padding-bottom: 10%;
+    }
+
+    .new_collection_text {
+        display: block;
+    }
+}
+
+@media (min-width: 769px) {
+    .welcome-image {
+        background-position-y: 82%;
+    }
+}
+
+@media (min-width: 1000px) {
+    .welcome-image {
+        padding-top: 20%;
+        padding-bottom: 15%;
+        background-position-y: 80%;
+        min-height: 0vh;
+    }
+
+    .new_collection_image {
+        background-position-y: 30%;
+        min-height: 0vh;
+    }
+
+
+}
+
+@media (min-width: 1500px) {
+    .welcome-image {
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-position-y: 50%;
+        min-height: 0vh;
+}
+}
 
 .welcome-container {
     max-width: 1000px;
@@ -30,15 +82,7 @@
     flex: 1;
 }
 
-.new_collection_image {
-    background-image: url("../images/toomas-tartes-Yizrl9N_eDA-unsplash-min.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding-top: 35%;
-    padding-bottom: 30%;
-    background-position-y: 70%;
-    background-position-x: 70%; 
-}
+
 
 .new_collection_text {
     display: none;
@@ -296,8 +340,11 @@
     line-height: 10px;
 }
 
-.size ,
-.amount {
+amount {
+    max-width: 50px;
+}
+
+.size {
     display: flex;
     flex-direction: row;
     margin: -10px 0px;
