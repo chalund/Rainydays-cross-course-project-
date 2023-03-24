@@ -13,12 +13,9 @@
     nav li a {
         color: #fff;
     }
+
+
 }
-
-
-
-
-
 
 @media (min-width: 481px) {
     .logo img {
@@ -66,18 +63,20 @@
         margin: 0;
     }
 
+    .womans_shop_text p {
+        display: block;
+        line-height: 0px;
+        font-size: 24px;
+    }
+
     .about__image {
     max-width: 400px;
     max-height: 40vh;
     padding: 10% 20%;
 
-}
+    }
     .contact__images {
         max-height: 40vh;
-    }
-
-    .contact-wrapper{
-        margin: 0 25%;
     }
 
     .contact-form {
@@ -97,7 +96,7 @@
         font-size: 14px;
     }
 
-        .container-details {
+    .container-details {
         flex-direction: row;
         background: #fff;
     }
@@ -118,7 +117,6 @@
         border: 1px solid #dadada;
     }
 
-    
     .payment-container {
         background-color: #fff;
         padding: 0px 15px;
@@ -183,30 +181,52 @@
     }
 } 
 
+@media (min-width: 769px) {
+    nav li a {
+        color: #000;
+    }
 
-
-    
-    @media (min-width: 769px) {
-        nav li a {
-            color: #000;
-        }
-
-        nav li:hover{
-            background-color: #ffe259;
-        }
+    nav li:hover{
+        background-color: #ffe259;
+    }
         
-        nav li a:hover {
-            color: #000
-        }
+    nav li a:hover {
+        color: #000
+    }
 
+    nav {
+        position: unset;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }
 
-        .searchbox {
-            display: block;
-        }
+    header label {
+        display: none;
+    }
 
-        .menu-icon{
-            display: block;
-        }
+    nav {
+        display: block;
+    }  
+    
+    nav li  {
+        padding: 5px 10px;
+        border: 0px solid;
+        border-radius: 20px;
+        margin: 0px 5px;
+        background-color: #ffe259;
+        width: 100px;
+        text-align: center;
+        display: inline-block;
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .searchbox {
+        display: block;
+    }
+
+    .menu-icon{
+        display: block;
+    }
 
     .menu-container {
         display: flex;
@@ -215,12 +235,6 @@
         margin: 0 auto;
     }
 
-    nav {
-        position: unset;
-        margin-left: 10%;
-        margin-bottom: 20px;
-    }
-    
     .menu {
         display: flex;
         align-items: center; 
@@ -248,34 +262,13 @@
         cursor: pointer;
     }
 
-    header label {
-        display: none;
-    }
-
-    nav {
-        display: block;
-    }  
-    
-    nav li  {
-        padding: 5px 10px;
-        border: 0px solid;
-        border-radius: 20px;
-        margin: 0px 5px;
-        background-color: #ffe259;
-        width: 100px;
-        text-align: center;
-        display: inline-block;
-        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    }
-
     .welcome-image {
         background-position-y: 82%;
     }
     
     .new_collection_image {
         padding-top: 10%;
-        padding-bottom: 0%; 
-        
+        padding-bottom: 0%;  
     } 
     
     .new_collection {
@@ -342,15 +335,16 @@
     margin: 0 auto;
     }
 
-       .about {
-        display: flex;
-        flex-direction: row;
-        margin: 6vh auto;
-        padding: 5px 20px;
-        font-size: 16px;
+    .about {
+    display: flex;
+    flex-direction: row;
+    margin: 6vh auto;
+    padding: 5px 20px;
+    font-size: 16px;
     }
 
-    .about > * {
+    .about > * ,
+    .contact > * {
         flex: 1;
     }
 
@@ -360,24 +354,25 @@
     }
 
     .contact {
-    max-width: 1000px;    
-    margin: 20px auto;
-    padding: 15px;
-    display: flex;
-    flex-direction: unset;
-}
+        max-width: 800px;    
+        margin: 10px auto;
+        padding: 15px;
+        display: flex;
+        flex-direction: unset;
+    }
 
-.contact > * {
-flex: 1;
-}
+    .contact__images {
+        width: 100%;
+        margin-top: 10%;
+        min-height: 400px;
+    }
 
-.contact__images {
-    max-height: 100%;
-    margin-top: 30%;
-}
+    .contact-wrapper {
+        margin-left: 0px;
+    }
 
-.contact-wrapper {
-    margin-left: 0px;
+    .contact__headline {
+        font-size: 20px;
 }
 }
 
@@ -394,8 +389,14 @@ flex: 1;
         min-height: 0vh;
     }
 
-     .new_collection_text {
+    .new_collection_text {
         font-size: 30px;
+    }
+
+    .womans_shop_text {
+        font-size: 30px;
+        padding-left: 50px;
+        margin: -5% 10%;
     }
 
     .about__image {
@@ -415,5 +416,16 @@ flex: 1;
         padding-bottom: 10%;
         background-position-y: 50%;
         min-height: 0vh;
+    }
+
+    .womans_shop_image {
+        padding-top: 10%;
+        padding-bottom: 6%;
+        background-position-y: 30%;
+        min-height: 0vh;
+    }
+
+    .womans_shop_text {
+        margin: -8% 20%;
     }
 }

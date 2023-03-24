@@ -30,7 +30,6 @@
     flex: 1;
 }
 
-
 .new_collection_image {
     background-image: url("../images/toomas-tartes-Yizrl9N_eDA-unsplash-min.jpg");
     background-repeat: no-repeat;
@@ -107,7 +106,6 @@
     margin-bottom: 30px;
 }
 
-
 /* user page*/
 .user_section , 
 .shopping_cart{
@@ -124,8 +122,6 @@
     padding: 10px 20px;
 }
 
-
-
 .user_section input ,
 .shopping_cart input {
     padding: 8px 10px;
@@ -135,9 +131,6 @@
 .logInBtn {
     margin: 20px 48px;
 }
-
-
-
 
 /* mens shop page */
 .mens_shop_image {
@@ -160,7 +153,6 @@
     max-height: 10vh;
 }
 
-
 .womans_shop_text {
     font-size: 20px;
     color: #fff;
@@ -170,40 +162,6 @@
 .womans_shop_text p {
     display: none;
 }
-
-
-@media (min-width: 481px) {
-    .womans_shop_text p {
-        display: block;
-        line-height: 0px;
-        font-size: 24px;
-    }
-}
-
-
-@media (min-width: 1000px) {
-    .womans_shop_text {
-        font-size: 30px;
-        padding-left: 50px;
-        margin: -5% 10%;
-    }
-}
-
-
-@media (min-width: 1500px) {
-    .womans_shop_image {
-        padding-top: 10%;
-        padding-bottom: 6%;
-        background-position-y: 30%;
-        min-height: 0vh;
-    }
-
-    .womans_shop_text {
-        margin: -8% 20%;
-    }
-}
-
-
 
 .filter{
     max-width: 1000px;
@@ -246,22 +204,12 @@
 }
 
 .mens_shop_text {
-    font-size: 26px;
+    font-size: 20px;
     color: #fff;
     text-align: center;
     margin-top: -15%;
-}
 
-.categories li {
-    padding: 10px;
-    border-radius: 20px;
-    margin: 1rem;
-    background-color:#629c9f;
-    width: 150px;
-    text-align: center;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-
 
 .categories {
     text-align: center;
@@ -275,44 +223,42 @@
     display: block;
     background-color:#629c9f;
 }
+.categories li {
+    padding: 10px;
+    border-radius: 20px;
+    margin: 1rem;
+    background-color:#629c9f;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
-/* about page */
-.about {
+/* about & contact page */
+.about ,
+.contact {
     display: flex;
     flex-direction: column-reverse
 } 
 
-.about__content h1 {
+.about__content h1 , 
+.contact__headline {
     text-align: center;
 }
 
-.about__content {
-    margin: 50px auto;
+.about__content , 
+.contact_content {
+    margin: 20px auto;
     padding: 0px 30px;
 }
 
-.about__image {
+.about__image , 
+.contact__images{
     width: 100%;
     max-height: 300px;
 }
 
 .about h2 {
     font-size: 20px;
-}
-
-/* contact page */
-.contact {
-    display: flex;
-    flex-direction: column-reverse;
-}
-
-.contact__images {
-    width: 100%;
-    max-height: 30vh;
-}
-
-.contact__headline {
-   text-align: center;
 }
 
 .contact i {
@@ -325,8 +271,11 @@
     display: grid;
     grid-template-columns: 1fr 3fr;
     align-items: center;
-    margin: 10%
 }
+
+.fa-solid.fa-location-dot {
+    padding: 20px 24px;
+} 
 
 .phone ,
 .adress ,
@@ -336,31 +285,23 @@
     line-height: 4px;
 }
 
-.fa-solid.fa-location-dot {
-    padding: 20px 24px;
-} 
-
-
-.form-error {
-    display: none;
-    font-size: 14px;
-    margin-bottom: 10px;
-    color: rgb(184, 2, 2);
+/* send message */
+.message_section {
+    background-color: #528386;
+    padding: 2rem;
 }
 
-.form-success {
-    display: none;
-    border: 2px solid #000;
-    padding: 1rem;
-    color: #000;
-    background: rgb(139, 242, 171);
+.contact-us {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact-message{
     text-align: center;
-    margin-top: 2rem;
-    font-size: 18px;
+    margin: 0 auto;
 }
 
 .contact-form {
-
     background: #fff;
     padding: 10px 20px;
     border-radius: 20px;
@@ -380,23 +321,6 @@
     padding-bottom: 100px;
     margin-bottom: 20px;
 }
-
-.message {
-    background-color: #528386;
-    padding: 2rem;
-}
-
-.contact-us {
-    max-width: 500px;
-    margin: 0 auto;
-}
-
-.contact-message{
-    text-align: center;
-    /* max-width: 500px; */
-    margin: 0 auto;
-}
-
 
 /* overview jacket/ product details*/
 .box-button {
@@ -443,7 +367,6 @@
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-
 .btn-size:hover ,
 .btn-clicked {
     font-weight: bolder;
@@ -451,12 +374,9 @@
     color: #fff;
 }
 
-
-
 .overview-button {
     margin: 30px 40px
 }
-
 
 /* customer details page*/
 .payment-container {
@@ -495,7 +415,6 @@
     margin: 20%;
 }
 
-
 /*payment page*/
 .payment-details {
     padding: 20px;
@@ -506,10 +425,8 @@
     justify-content: space-around;
 }
 
-
 .card-details {
     display: flex;
-  
 }
 
 .card-details input {
@@ -573,7 +490,6 @@
     flex-direction: column;
     align-items: center;
     padding: 10px 0px;
-
 }
 
 .succsess img {
@@ -590,6 +506,3 @@
     padding: 10px 40px;
     margin: 50px 0px;
 }
-
-
-
