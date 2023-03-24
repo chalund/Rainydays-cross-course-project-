@@ -10,7 +10,7 @@
         background-color: #0A3641;
     }
     
-    nav li a:hover {
+    nav li a {
         color: #fff;
     }
 }
@@ -23,6 +23,10 @@
 @media (min-width: 481px) {
     .logo img {
         max-width: 180px;
+    }
+
+    nav {
+        top: 100px;
     }
 
     .new_collection_text{
@@ -183,6 +187,9 @@
 
     
     @media (min-width: 769px) {
+        nav li a {
+            color: #000;
+        }
 
         nav li:hover{
             background-color: #ffe259;

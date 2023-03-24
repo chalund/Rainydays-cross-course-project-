@@ -111,15 +111,32 @@
 /* user page*/
 .user_section , 
 .shopping_cart{
-    text-align: left;
     background: #fff;
     padding: 2em;
     border-radius: 1rem;
-    margin: 3em auto;
+    margin: 1em auto;
     border: 1px solid;
-    max-width: 240px;
-    text-align: center;
+    max-width: 200px;
 }
+
+.shoppingCart_content {
+    text-align: center;
+    padding: 10px 20px;
+}
+
+
+
+.user_section input ,
+.shopping_cart input {
+    padding: 8px 10px;
+    margin: 5px 0px;
+}
+
+.logInBtn {
+    margin: 20px 48px;
+}
+
+
 
 
 /* mens shop page */
@@ -143,11 +160,49 @@
     max-height: 10vh;
 }
 
+
 .womans_shop_text {
-    font-size: 26px;
+    font-size: 20px;
     color: #fff;
-    margin: -10% 10%;
+    margin: 0px 50px;
 }
+
+.womans_shop_text p {
+    display: none;
+}
+
+
+@media (min-width: 481px) {
+    .womans_shop_text p {
+        display: block;
+        line-height: 0px;
+        font-size: 24px;
+    }
+}
+
+
+@media (min-width: 1000px) {
+    .womans_shop_text {
+        font-size: 30px;
+        padding-left: 50px;
+        margin: -5% 10%;
+    }
+}
+
+
+@media (min-width: 1500px) {
+    .womans_shop_image {
+        padding-top: 10%;
+        padding-bottom: 6%;
+        background-position-y: 30%;
+        min-height: 0vh;
+    }
+
+    .womans_shop_text {
+        margin: -8% 20%;
+    }
+}
+
 
 
 .filter{
@@ -198,7 +253,7 @@
 }
 
 .categories li {
-    padding: 5px 10px;
+    padding: 10px;
     border-radius: 20px;
     margin: 1rem;
     background-color:#629c9f;
@@ -389,11 +444,14 @@
 }
 
 
-.size p:hover {
+.btn-size:hover ,
+.btn-clicked {
     font-weight: bolder;
     background-color: #0A3641;
     color: #fff;
 }
+
+
 
 .overview-button {
     margin: 30px 40px
@@ -506,15 +564,16 @@
 
 /* Payment successfully */
 .success-content{
-    margin: 7vh;
+    margin: 5vh;
+    padding-bottom: 5vh;
 }
 
 .succsess {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: 450px;
-    padding: 30px 0px;
+    padding: 10px 0px;
+
 }
 
 .succsess img {
@@ -529,5 +588,8 @@
 
 .success-button {
     padding: 10px 40px;
-    margin-top: 20px;
+    margin: 50px 0px;
 }
+
+
+
