@@ -119,16 +119,16 @@
 
     .payment-container {
         background-color: #fff;
-        padding: 0px 15px;
+        padding: 10px 15px;
         margin: 20px auto 0px;
         border: 1px solid #dadada;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-        max-width: 500px;
+        max-width: 650px;
         margin: 0 auto;
     }
 
     .summary-btn {
-        padding: 25px 150px;
+        padding: 25px 35%;
         margin: 0;
     }
     
@@ -194,19 +194,20 @@
         color: #000
     }
 
-    nav {
-        position: unset;
-        margin-left: 10%;
-        margin-bottom: 20px;
-    }
-
     header label {
         display: none;
     }
 
-    nav {
+     nav {
         display: block;
-    }  
+        position: unset;
+        margin-left: 10%;
+        margin-bottom: 20px;
+    }   
+
+    .menu-pages {
+        margin: 0 auto;
+    }
     
     nav li  {
         padding: 5px 10px;
@@ -373,7 +374,13 @@
 
     .contact__headline {
         font-size: 20px;
-}
+    }
+
+    .payment-container {
+        margin: 5vh auto;
+    }
+
+    
 }
 
 @media (min-width: 1000px) {
