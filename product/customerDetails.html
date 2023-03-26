@@ -10,17 +10,6 @@
     <link href="../css/media.css" rel="Stylesheet">
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
     <title>Rainydays | Payment</title>
-    <!-- Hotjar Tracking Code for rainydays update -->
-<script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:3420300,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
-</script>
 </head>
 <body>
     <header>
@@ -67,39 +56,27 @@
                     <form class="shipping-form" id="shippingForm">
                             <div>
                                 <label for="first name">First Name</label>
-                                <input type="text" id="first name" name="first name" placeholder="First name">
-                                <!-- <div class="form-error" id="nameError">Please enter your name</div> -->
+                                <input type="text" id="firstName" name="first name" placeholder="First name">
                             </div>
                             <div>
                                 <label for="last name">Last Name</label>
-                                <input type="text" id="last name" name="last name" placeholder="Last name">
-                                <!-- <div class="form-error" id="nameError">Please enter your name</div> -->
+                                <input type="text" id="lastName" name="last name" placeholder="Last name">
                             </div>
                         <div>
                             <label for="email">Email</label>
                             <input type="text" id="email" name="email" placeholder="Example@email.com">
-                            <!-- <div class="form-error" id="emailError">Please enter a valid email address</div> -->
-                        </div>
-                        <div>
-                            <label for="Country">Country</label>
-                            <input type="text" id="country" name="country" placeholder="Country">
-                            <!-- <div class="form-error" id="emailError">Please enter a valid email address</div> -->
                         </div>
                         <div>
                             <label for="Address">Address</label>
                             <input type="text" id="address" name="address" placeholder="Address">
-                            <!-- <div class="form-error" id="emailError">Please enter a valid email address</div> -->
                         </div>
                             <div>
                                 <label for="Postcode">Postcode</label>
                                 <input type="text" id="postcode" name="postcode" placeholder="Postcode">
-                                <!-- <div class="form-error" id="emailError">Please enter a valid email address</div> -->
                             </div>
                             <div>
                                 <label for="City">City</label>
                                 <input type="text" id="city" name="city" placeholder="City">
-                                <!-- <div class="form-error" id="emailError">Please enter a valid email address</div> -->
-                            </div>
                             <div>
                                 <input type="checkbox" name="billing address" id="billing address">
                                 <label for="billing address" class="billing-address">Billing address same as Shipping address</label>
@@ -149,7 +126,7 @@
                     </div>  
             </section> 
             <div class="summary-btn">
-                <a href="../product/payment.html" class="cta cta-button">Buy</a>
+                <a href="../product/payment.html" type="Submit" class="cta cta-button">Buy</a>
             </div>
         </div>
     </main> 

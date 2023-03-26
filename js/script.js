@@ -6,3 +6,7 @@ btnSizeList.forEach(btnSize => {
     btnSize.classList.add("btn-clicked");
 });
 })
+
+
+
+
