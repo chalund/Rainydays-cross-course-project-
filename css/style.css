@@ -230,10 +230,11 @@
     display: block;
     background-color:#629c9f;
 }
+
 .categories li {
     padding: 10px;
     border-radius: 20px;
-    margin: 1rem;
+    margin: 10% -10%;
     background-color:#629c9f;
     width: 150px;
     text-align: center;

@@ -23,12 +23,15 @@
         top: 100px;
     }
 
+    
+
     .new_collection_text{
         display: block;
-        font-size: 20px;
-        color: #ff6435;
+        font-size: 14px;
+        background-color: rgba(9, 9, 9, 0.359);
+        color: #fff;
         padding: 40px 30px;
-        max-width: 300px;
+        max-width: 200px;
     } 
 
     .new_collection_image {
@@ -36,8 +39,28 @@
     }
 
     .new_collection_text a {
-        display: none;
+        display: block;
+        color: #0A3641;
+        margin: 0px 10px;
+        padding: 6px 0;
     }
+
+     .new_collection_links {
+        padding: 0px 5px;
+        margin: 15px 0px;
+        max-width: 300px;
+        background-color: #fff;
+        border-radius: 30px;
+    }
+
+     .new_collection_text a:hover {
+        font-weight: bolder;
+        text-decoration: underline;
+    }
+
+    .new_collection_links:hover {
+        text-decoration: none;
+    } 
 
     .favorite_products img {
         width: 100%;
@@ -57,7 +80,11 @@
         justify-content: space-evenly;
         font-size: 12px;
         align-items: center;    
-        margin: 0;
+        margin: 20px 10px;
+    }
+
+    .categories li {
+        margin: 0% 1%;
     }
 
     .womans_shop_text p {
@@ -69,7 +96,7 @@
     .about__image {
     max-width: 400px;
     max-height: 40vh;
-    padding: 10% 20%;
+    margin: 10% 15%;
 
     }
     .contact__images {
@@ -184,6 +211,7 @@
 } 
 
 @media (min-width: 769px) {
+    /* nav overall*/
     nav li a {
         color: #000;
     }
@@ -207,9 +235,6 @@
         margin-bottom: 20px;
     }   
 
-    .menu-pages {
-        margin: 0 auto;
-    }
     
     nav li  {
         padding: 5px 10px;
@@ -221,6 +246,10 @@
         text-align: center;
         display: inline-block;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    }
+
+    .menu-pages {
+        margin: 0 auto;
     }
 
     .searchbox {
@@ -278,37 +307,13 @@
         position: relative;
     }
     
-    .new_collection_text {
+     .new_collection_text {
         font-size: 24px;
-        max-width: 500px;
+        max-width: 300px;
         margin: 20px 50px;
         line-height: 40px;
-        background-color: rgba(9, 9, 9, 0.359);
-        color: #fff;
+    
     } 
-    
-    .new_collection_links {
-        padding: 0px 5px;
-        margin: 15px 0px;
-        max-width: 300px;
-        background-color: #fff;
-        border-radius: 30px;
-    }
-    
-    .new_collection_text a {
-        display: block;
-        color: #0A3641;
-        margin: 0px 10px;
-    }
-    
-    .new_collection_text a:hover {
-        font-weight: bolder;
-        text-decoration: underline;
-    }
-
-    .new_collection_links:hover {
-        text-decoration: none;
-    }
     
     .favorite_products {
         grid-template-columns: repeat(3,1fr);   
@@ -339,6 +344,10 @@
     .product-list  {
     max-width: 1000px;
     margin: 0 auto;
+    }
+
+    .categories li {
+        margin: 10% 10;
     }
 
     .about {
@@ -423,11 +432,23 @@
 }
 
 @media (min-width: 1500px) {
+    /*index page */
     .welcome-image {
         padding-top: 10%;
         padding-bottom: 10%;
         background-position-y: 50%;
         min-height: 0vh;
+    }
+
+
+    .new_collection_text {
+        margin-left: 20%;
+    }
+
+
+
+    .footer-details {
+        margin-left: 45%;
     }
 
     .womans_shop_image {
@@ -439,9 +460,5 @@
 
     .womans_shop_text {
         margin: -8% 20%;
-    }
-
-    .footer-details {
-        margin-left: 45%;
     }
 }
