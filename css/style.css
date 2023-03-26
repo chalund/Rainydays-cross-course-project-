@@ -379,25 +379,31 @@
 }
 
 .overview-button {
-    margin: 30px 40px
+    margin: 30px 20%;
 }
 
 /* customer details page*/
 .payment-container {
     background-color: #fff;
-}
-
-.container-details {
-    display: flex;
-    flex-direction: column-reverse;
+    padding: 10px;
 }
 
 .checkout-line {
     display: none;
 }
 
-.customer-details { 
-    margin-left: 25px;
+.container-details {
+   display: flex;
+}
+
+.container-details h2{
+    text-align: center;
+}
+
+.payment-detail { 
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 20px;
 } 
 
 .shipping-form ,
@@ -420,10 +426,6 @@
 }
 
 /*payment page*/
-.payment-details {
-    padding: 20px;
-}
-
 .choose-payment {
     display: flex;
     justify-content: space-around;

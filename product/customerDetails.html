@@ -46,92 +46,94 @@
     <main >
         <div class="payment-container">
             <div class="checkout-line">
-                <a href="/product/customerDetails.html"><b>1. Customer details</b></a>
-                <a href="/product/payment.html">2. Payment</a>
+                <a href="/product/customerDetails.html">1. Customer details</a>
+                <a href="/product/payment.html"><b>2. Payment</b></a>
                 <a href="/product/success.html">3. Success</a>
             </div>
-            <section class="container-details">
-                <div class="customer-details">
-                <h2>Customer details</h2>
-                    <form class="shipping-form" id="shippingForm">
-                            <div>
-                                <label for="first name">First Name</label>
-                                <input type="text" id="firstName" name="first name" placeholder="First name">
-                            </div>
-                            <div>
-                                <label for="last name">Last Name</label>
-                                <input type="text" id="lastName" name="last name" placeholder="Last name">
-                            </div>
-                        <div>
-                            <label for="email">Email</label>
-                            <input type="text" id="email" name="email" placeholder="Example@email.com">
-                        </div>
-                        <div>
-                            <label for="Address">Address</label>
-                            <input type="text" id="address" name="address" placeholder="Address">
-                        </div>
-                            <div>
-                                <label for="Postcode">Postcode</label>
-                                <input type="text" id="postcode" name="postcode" placeholder="Postcode">
-                            </div>
-                            <div>
-                                <label for="City">City</label>
-                                <input type="text" id="city" name="city" placeholder="City">
-                            <div>
-                                <input type="checkbox" name="billing address" id="billing address">
-                                <label for="billing address" class="billing-address">Billing address same as Shipping address</label>
-                            </div>
-                    </form>
-                </div>
-                <div class="order-summary">
-                    <h2>Order Summary</h2>
-                    <div class="order-summary-content">
-                        <div>
-                            <img src="../assets/RainyDays_Jacket1-min.png" alt="1st watch orange and gray" >
-                        </div>
-                        <div class="order-summary-details">
+            <section class="payment-detail">
+                <div class="payment-details">
+                    <h2>Customer details</h2>
+                        <form class="shipping-form" id="shippingForm">
                                 <div>
-                                    <h3>1st Watch</h3>
-                                    <p>Explorair 2</p>
-                                    <h4>2599 NOK</h4>
+                                    <label for="first name">First Name</label>
+                                    <input type="text" id="firstName" name="first name" placeholder="First name">
                                 </div>
-                                <div class="color">
-                                    <h4>Color</h4>
-                                    <p>Gray/orange</p>
+                                <div>
+                                    <label for="last name">Last Name</label>
+                                    <input type="text" id="lastName" name="last name" placeholder="Last name">
                                 </div>
-                                <div class="dimensions">
-                                    <h4>Size</h4>
-                                    <p>L</p>
+                            <div>
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="Example@email.com">
+                            </div>
+                            <div>
+                                <label for="Address">Address</label>
+                                <input type="text" id="address" name="address" placeholder="Address">
+                            </div>
+                                <div>
+                                    <label for="Postcode">Postcode</label>
+                                    <input type="text" id="postcode" name="postcode" placeholder="Postcode">
                                 </div>
-                                <div class="quantity">
-                                    <h4>Quantity</h4>
-                                    <p>1</p>
+                                <div>
+                                    <label for="City">City</label>
+                                    <input type="text" id="city" name="city" placeholder="City">
+                                <div>
+                                    <input type="checkbox" name="billing address" id="billing address">
+                                    <label for="billing address" class="billing-address">Billing address same as Shipping address</label>
                                 </div>
-                        </div>
+                        </form>
                     </div>
-                    <div class="order-payments">
-                        <h3>Order Summary</h3> 
-                            <div class="order-payments1">
-                                <p>Your order</p>
-                                <p>2599 NOK</p>
+                    </div>
+                    <div class="order-summary">
+                        <h2>Order Summary</h2>
+                        <div class="order-summary-content">
+                            <div>
+                                <img src="../assets/RainyDays_Jacket1-min.png" alt="1st watch orange and gray" >
                             </div>
-                            <div class="order-payments1">
-                                <p>Shopping</p>
-                                <p>FREE</p>
+                            <div class="order-summary-details">
+                                    <div>
+                                        <h3>1st Watch</h3>
+                                        <p>Explorair 2</p>
+                                        <h4>2599 NOK</h4>
+                                    </div>
+                                    <div class="color">
+                                        <h4>Color</h4>
+                                        <p>Gray/orange</p>
+                                    </div>
+                                    <div class="dimensions">
+                                        <h4>Size</h4>
+                                        <p>L</p>
+                                    </div>
+                                    <div class="quantity">
+                                        <h4>Quantity</h4>
+                                        <p>1</p>
+                                    </div>
                             </div>
-                            <div class="order-payments1 order-total">
-                                <p>Order total</p>
-                                <p>2599 NOK</p>
-                            </div>
-                    </div>  
-            </section> 
-            <div class="summary-btn">
-                <a href="../product/payment.html" type="Submit" class="cta cta-button">Buy</a>
+                        </div>
+                        <div class="order-payments">
+                            <h3>Order Summary</h3> 
+                                <div class="order-payments1">
+                                    <p>Your order</p>
+                                    <p>2599 NOK</p>
+                                </div>
+                                <div class="order-payments1">
+                                    <p>Shopping</p>
+                                    <p>FREE</p>
+                                </div>
+                                <div class="order-payments1 order-total">
+                                    <p>Order total</p>
+                                    <p>2599 NOK</p>
+                                </div>
+                        </div> 
+                    </div> 
+                </section> 
+                <div class="summary-btn">
+                    <a href="../product/success.html" class="cta cta-button">Pay</a>
+                </div>
             </div>
-        </div>
-    </main> 
-    <footer >
-            <p>&copy; Copyright</p> 
-    </footer>
-</body>
-</html>
+        </main> 
+        <footer >
+                <p>&copy; Copyright</p> 
+        </footer>
+    </body>
+  
