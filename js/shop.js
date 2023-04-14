@@ -18,12 +18,15 @@ async function getProducts() {
 
 function createProductHTML(product) {
     const container = document.querySelector(".productContainer");
+ 
 
     const productContainer = document.createElement("a");
-    productContainer.setAttribute("href", "../product/overviewjacket.html");
-
+    productContainer.href = "./overviewjakcet.html"
     productContainer.classList.add("product");
     productContainer.id = product.id;
+
+
+
 
     const title = document.createElement("h2");
     title.innerText = product.name;
@@ -32,10 +35,6 @@ function createProductHTML(product) {
     const titleName = document.createElement("h3");
     titleName.innerHTML = product.short_description;
     productContainer.append(titleName)
-
-    
-
-
 
 
     container.append(productContainer)

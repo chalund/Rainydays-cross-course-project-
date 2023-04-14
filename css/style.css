@@ -203,6 +203,7 @@
 
 .product img {
     width: 100%;
+    height: 300px;
 }
 
 .product a {
@@ -340,10 +341,20 @@
     font-size: 24px;
 }
 
-.overview-jacket img {
+.overview-details {
+    margin-left: 50px;
+    padding: 0px 10px;
+}
+
+
+
+.overview-jacketImg {
     max-width: 100%;
     max-height: 250px;
 }
+
+/* 
+
 
 .overview-jacket ,
 .overview-product-details {
@@ -380,7 +391,7 @@
 
 .overview-button {
     margin: 30px 20%;
-}
+}  */
 
 /* customer details page*/
 .payment-container {

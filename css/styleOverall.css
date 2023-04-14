@@ -1,7 +1,3 @@
-@font-face {
-    font-family: "Mulish";
-    src: url(../fonts/Mulish-Regular.ttf) format("truetype");
-}
 
 body {
     font-family: "Mulish", "Muli", "Avenir", "Proxima Nova", "Futura";
@@ -116,9 +112,13 @@ footer {
     font-size: 20px;
 }
 
+.categroy:hover {
+    font-weight: bolder;
+}
+
 .cta-small {
-    padding: 5px 20px;
-    margin: 0px 10px;
+    padding: 5px;
+    margin: 30px 50px;
 }
 
 .cta-large {
