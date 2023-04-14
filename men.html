@@ -9,7 +9,7 @@
     <link href="css/style.css" rel="Stylesheet"> 
     <link href="css/media.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
-    <script src="js/shop2.js" defer></script>
+    <script src="js/shop.js" defer></script>
     <title>Rainydays | Men</title>
 </head>
 <body>
@@ -20,9 +20,8 @@
                     <a href="index.html" class="logo"> <img src="logo/RainyDays_Logo-min.png" alt="rainydays logo"></a>
                 </div>
                 <div class="searchbox">
-                    
                     <input type="text" id="search-bar" placeholder="Search.." name="search">
-                     <button id="search-icon" aria-label="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    <button id="search-icon" aria-label="search-icon"><i class="fa-solid fa-magnifying-glass"></i></button>
                 </div>
                 <div class="menu-icon">
                     <a href="user/user.html" aria-label="user-page"><i class="fa-regular fa-user"></i></a>
@@ -58,14 +57,14 @@
         <section class="categories">
             <h2>Categories</h2>
                 <ul>
-                    <li id="featured" class="categroy">Featured</li>
-                    <li id="warm" class="categroy">Warm</li>
-                    <li id="wind" class="categroy">Wind</li>
-                    <li id="mid-layer" class="categroy">Mid-Layer</li>
+                    <li id="featured" class="categroy" name="category" value="true">Featured</li>
+                    <li id="warm" class="categroy"  name="category" value="20">Warm</li>
+                    <li id="wind" class="categroy"  name="category" value="21">Wind</li>
+                    <li id="mid-layer" class="categroy"  name="category" value="22">Mid-Layer</li>
                 </ul>
         </section>
         <section class="filter">
-            <p>All jackets</p>
+            <p id="all-jackets" class="categroy"  name="category" value="19">All jackets</p>
             <p >Sort</p>
                 <ul class="filter-dropdown">
                     <li>Price Low-High</li>

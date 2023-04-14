@@ -1,55 +1,56 @@
-const apiBase = "https://charlottelund.no";
-const WooComBase = "/wp-json/wc/store";
-const productBase = "/products";
-
-const pagesBase = "/wp-json/wp/v2/pages";
-
-const fullPageUrl = apiBase + pagesBase;
-const fullProductUrl = apiBase + WooComBase + productBase;
+const baseUrl = "https://charlottelund.no/wp-json/wc/store/products";
+const productContainer = document.querySelector(".product-list");
+const categories = document.querySelectorAll(".categories");
+const searchButton = document.querySelector("#search-icon");
 
 
+async function getProducts(url){
+    const response = await fetch(url);
+    const products = await response.json();
+    console.log(products);
 
-async function getProducts() {
-    const response = await fetch(fullProductUrl);
-    const products = await response.json()
-
-    return products
+    products.forEach(function(product){
+        productContainer.innerHTML += `
+                            <a href="../product/overviewjacket.html?id=${product.id}">
+                            <div class="product">
+                            <h2>${product.name}</h2>
+                            <h3>${product.short_description}</h3>
+                            <img src="${product.images[0].src}" alt="${product.name}">
+                            <p class="cta cta-small">Add to cart</p>
+                            </div>
+                            </a>`
+    });
 }
-
-function createProductHTML(product) {
-    const container = document.querySelector(".productContainer");
- 
-
-    const productContainer = document.createElement("a");
-    productContainer.href = "./overviewjakcet.html"
-    productContainer.classList.add("product");
-    productContainer.id = product.id;
+getProducts(baseUrl);
 
 
+// Find different categories
+categories.forEach(function(category){
+    category.onclick = function(event) {
+        let newUrl;
+        if(event.target.id === "featured"){
+            newUrl = baseUrl + "?featured=true"
+        }
+        else {
+            const categoryChosen = event.target.value;
+            newUrl = baseUrl + `?category=${categoryChosen}`;
+        }
+        productContainer.innerHTML = "";
 
-
-    const title = document.createElement("h2");
-    title.innerText = product.name;
-    productContainer.append(title)
-
-    const titleName = document.createElement("h3");
-    titleName.innerHTML = product.short_description;
-    productContainer.append(titleName)
-
-
-    container.append(productContainer)
-}
-
-function createProductsHTML(products) {
-    for (let i = 0; i < products.length; i ++) {
-        const product = products[i];
-        createProductHTML(product)
+        getProducts(newUrl);
     }
-}
+});
 
-async function productPage() {
-    const products = await getProducts()
-    createProductsHTML(products)
-    console.log(products[0]);
-}
-productPage()
+//
+
+
+//Search bar
+searchButton.onclick = function() {
+    const searchInput = document.querySelector("#search-bar").value;
+    const newUrl = baseUrl + `?search=${searchInput}`;
+    productContainer.innerHTML = "";
+    getProducts(newUrl);
+};
+
+
+
