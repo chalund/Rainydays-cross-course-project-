@@ -163,11 +163,11 @@
 @media (min-width: 500px) {
     .box {
         max-width: 650px;
-        margin: 35px auto;
         border: 1px solid;
         background-color: #fff;
-        padding: 10px;
+        padding: 50px 20px;
         box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        margin: 80px auto;
     }
     
     .box-button {

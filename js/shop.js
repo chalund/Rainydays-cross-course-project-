@@ -44,7 +44,7 @@ categories.forEach(function(category){
 //
 
 
-//Search bar
+//Search bar, only works on mens page
 searchButton.onclick = function() {
     const searchInput = document.querySelector("#search-bar").value;
     const newUrl = baseUrl + `?search=${searchInput}`;

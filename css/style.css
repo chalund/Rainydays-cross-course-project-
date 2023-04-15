@@ -154,16 +154,16 @@
     background-image: url(/images/toomas-tartes-Yizrl9N_eDA-unsplash-min.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    padding-top: 14%;
+    padding-top: 40%;
     padding-bottom: 20%;
     background-position-y: 42%;
     max-height: 10vh;
 }
 
 .womans_shop_text {
-    font-size: 20px;
+    font-size: 35px;
     color: #fff;
-    margin: 0px 50px;
+    margin: -20px 50px;
 }
 
 .womans_shop_text p {
@@ -342,8 +342,8 @@
 }
 
 .overview-details {
-    margin-left: 50px;
-    padding: 0px 10px;
+    padding: 10px 20px;
+    margin: 20px 0px;
 }
 
 
