@@ -11,7 +11,7 @@ async function getProducts(url){
 
     products.forEach(function(product){
         productContainer.innerHTML += `
-                            <a href="../product/overviewjacket.html?id=${product.id}">
+                            <a href="../product/productDetails.html?id=${product.id}">
                             <div class="product">
                             <h2>${product.name}</h2>
                             <h3>${product.short_description}</h3>
@@ -40,8 +40,6 @@ categories.forEach(function(category){
         getProducts(newUrl);
     }
 });
-
-//
 
 
 //Search bar, only works on mens page

@@ -2,6 +2,7 @@ const detailsContainer = document.querySelector(".overview-page");
 const queryString = document.location.search;
 const params = new URLSearchParams(queryString);
 const id = params.get("id");
+const orderSummary = document.querySelector(".order-summary-content");
 
 const url = "https://charlottelund.no/wp-json/wc/store/products/" + id;
 
@@ -18,7 +19,7 @@ async function getProduct() {
                                         <div class="overview-details">
                                         <h2>${details.name}</h2>
                                         <h3>${details.short_description}</h3>
-                                        <h3>${details.prices.price} Kr </h3>
+                                        <h3>${details.prices.price} Kr</h3>
                                         <p>${details.variations}</p>
                                         <p>${details.description} </p>
                                             <div class="overview-button">
@@ -32,4 +33,3 @@ async function getProduct() {
 getProduct();
 
 
-const orderSummary = document.querySelector(".order-summary-content");
