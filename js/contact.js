@@ -1,3 +1,5 @@
+//old script CONTACT-PAGE
+
 const form = document.querySelector("#contactForm");
 const fullName = document.querySelector("#name");
 const fullNameError = document.querySelector("#nameError");

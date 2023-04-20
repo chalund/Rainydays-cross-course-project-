@@ -2,6 +2,8 @@
 
 Netlify-link:
 
+Username: Noroff
+Password: cpsrU0sApLXo3KVmex4Bw(xf 
 
 Notes:
 - The search-bar only works on Mens-page.
