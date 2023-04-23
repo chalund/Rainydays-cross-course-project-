@@ -9,6 +9,7 @@
     <link href="../css/style.css" rel="Stylesheet"> 
     <link href="../css/media.css" rel="Stylesheet">
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
+    <script src="/js/index.js" ></script>
     <script src="/js/details.js" defer type="module"></script>
     <title>Rainydays | Overview Jacket</title>
     
@@ -36,7 +37,7 @@
                     <nav>
                         <ul>
                             <li><a href="../index.html">Home</a></li>
-                             <li title="Coming soon">Woman</li>
+                            <li class="woman" onclick="womanButton()" title="Coming soon">Woman</li>
                             <li><a href="../men.html">Men</a></li>
                             <li><a href="../about.html">About</a></li>
                             <li><a href="../contact.html">Contact</a></li>
@@ -52,49 +53,9 @@
             </div>
                 <h1>Product details</h1>
             <section class="overview-page">
-                <p>Wait this is a spinner</p>
+                <div class="loader"></div> 
             </section>
-                <!-- <div class="overview-jacket">
-                    <div>
-                        <img src="../assets/RainyDays_Jacket1-min.png" alt="1st watch orange and gray">
-                    </div>
-                    <div class="overview-details">
-                        <div class="overview-name">
-                            <h2>1st Watch</h2>
-                            <p>Explorair 2</p>
-                        </div>
-                        <div>
-                            <h3>2599 NOK</h3>
-                        </div>
-                        <div>
-                            <h3>Size</h3>
-                            <div class="size">
-                               <button id="size-btn" class="btn-size">XS</button>
-                               <button id="size-btn" class="btn-size">S</button>
-                               <button id="size-btn" class="btn-size">M</button>
-                               <button id="size-btn" class="btn-size">L</button>
-                               <button id="size-btn" class="btn-size">XL</button>
-                            </div>
-                        </div>
-                        <div>
-                            <h3>Quantity</h3>
-                                <div class="amount">
-                                    <label for="quantity"></label>
-                                    <input type="number" id="amount" name="quantety">
-                                </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="overview-product-details">
-                    <div >
-                        <h3>Product Details</h3>
-                            <p>Technical outdoor functionality, comfort and durability brought to everyday designs. Gore-tex material that makes the jacket waterproof, windproof and breathable textiles that offer fully protective environmental shelter.</p>
-                    </div> 
-                    <div class="overview-button">
-                        <a href="../product/customerDetails.html" class="cta cta-button">Buy</a>
-                    </div>
-                </div>
-            </section>   -->
+        </div>
     </main>
     <footer >
             <p>&copy; Copyright</p>  

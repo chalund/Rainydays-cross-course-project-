@@ -8,8 +8,9 @@
     <link href="../css/styleOverall.css" rel="Stylesheet"> 
     <link href="../css/style.css" rel="Stylesheet"> 
     <link href="../css/media.css" rel="Stylesheet">
-    <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
-    <!-- <script src="/js/details.js" defer type="module"></script> -->
+    <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script>
+    <script src="/js/index.js" ></script>
+    <script src="/js/customerDetails.js" defer type="module"></script> 
     <title>Rainydays | Payment</title>
 </head>
 <body>
@@ -35,7 +36,7 @@
                     <nav>
                         <ul>
                             <li><a href="../index.html">Home</a></li>
-                             <li title="Coming soon">Woman</li>
+                            <li class="woman" onclick="womanButton()" title="Coming soon">Woman</li>
                             <li><a href="../men.html">Men</a></li>
                             <li><a href="../about.html">About</a></li>
                             <li><a href="../contact.html">Contact</a></li>
@@ -88,34 +89,13 @@
                     <div class="order-summary">
                         <h2>Order Summary</h2>
                         <div class="order-summary-content">
-                            <div>
-                                <img src="../assets/RainyDays_Jacket1-min.png" alt="1st watch orange and gray" >
-                            </div>
-                            <div class="order-summary-details">
-                                    <div>
-                                        <h3>1st Watch</h3>
-                                        <p>Explorair 2</p>
-                                        <h4>2599 NOK</h4>
-                                    </div>
-                                    <div class="color">
-                                        <h4>Color</h4>
-                                        <p>Gray/orange</p>
-                                    </div>
-                                    <div class="dimensions">
-                                        <h4>Size</h4>
-                                        <p>L</p>
-                                    </div>
-                                    <div class="quantity">
-                                        <h4>Quantity</h4>
-                                        <p>1</p>
-                                    </div>
-                            </div>
+                            <div class="ApiJacket"> <div class="loader"></div> </div>
                         </div>
                         <div class="order-payments">
                             <h3>Order Summary</h3> 
                                 <div class="order-payments1">
                                     <p>Your order</p>
-                                    <p>2599 NOK</p>
+                                    <div class="summaryPrice"></div>
                                 </div>
                                 <div class="order-payments1">
                                     <p>Shopping</p>
@@ -123,8 +103,8 @@
                                 </div>
                                 <div class="order-payments1 order-total">
                                     <p>Order total</p>
-                                    <p>2599 NOK</p>
-                                </div>
+                                    <div class="summaryPrice2"></div>
+                                </div> 
                         </div> 
                     </div> 
                 </section> 

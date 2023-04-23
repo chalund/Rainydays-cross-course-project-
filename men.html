@@ -10,6 +10,7 @@
     <link href="css/media.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8563808f06.js" crossorigin="anonymous"></script> 
     <script src="/js/script.js" defer type="module"></script>
+    <script src="/js/index.js" ></script>
     <title>Rainydays | Men</title>
 </head>
 <body>
@@ -34,7 +35,7 @@
                     <nav>
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li title="Coming soon">Woman</li>
+                            <li class="woman" onclick="womanButton()" title="Coming soon">Woman</li>
                             <li><a href="men.html">Men</a></li>
                             <li><a href="about.html">About</a></li>
                             <li><a href="contact.html">Contact</a></li>
@@ -56,16 +57,18 @@
         </section>
         <section class="categories">
             <h2>Categories</h2>
-                <ul>
-                    <li id="all-jackets" class="categroy" name="category" value="19">All jackets</li>
-                    <li id="featured" class="categroy" name="category" value="true">Featured</li>
-                    <li id="warm" class="categroy"  name="category" value="20">Warm</li>
-                    <li id="wind" class="categroy"  name="category" value="21">Wind</li>
-                    <li id="mid-layer" class="categroy"  name="category" value="22">Mid-Layer</li>
+                <ul class="categories2">
+                    <li id="all-jackets" class="category" name="category" value="29">All jackets</li>
+                    <li id="featured" class="category" name="category" value="true">Featured</li>
+                    <li id="warm" class="category"  name="category" value="31">Warm</li>
+                    <li id="wind" class="category"  name="category" value="32">Wind</li>
+                    <li id="mid-layer" class="category"  name="category" value="30">Mid-Layer</li>
                 </ul>
         </section>
-        <section class="product-list"></section>
-        <div class="view-product"></div>
+        <section class="product-list">
+            <div class="view-product"></div>
+                <div class="loader"></div> 
+        </section>
      </main>
      <footer>
             <p>&copy; Copyright</p> 

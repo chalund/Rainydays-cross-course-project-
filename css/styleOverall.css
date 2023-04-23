@@ -112,7 +112,7 @@ footer {
     font-size: 20px;
 }
 
-.categroy:hover {
+.category:hover {
     font-weight: bolder;
 }
 
@@ -148,3 +148,24 @@ footer {
     margin-top: 2rem;
     font-size: 18px;
 }
+
+.loader {
+    width: 100px;
+    height: 100px;
+    border: 6px solid #FFF;
+    border-bottom-color: #FF3D00;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    margin: 1rem auto;
+}
+
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+} 

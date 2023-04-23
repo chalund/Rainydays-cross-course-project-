@@ -2,11 +2,14 @@ const urlBase = "https://wordpress.charlottelund.no";
 const wooCom = "/wp-json/wc/store";
 const productBase = "/products";
 
+const productUrl = urlBase + wooCom + productBase;
 
-async function fetchAllProducts() {
-    const response = await fetch(urlBase + wooCom + productBase);
-    const result = await response.json();
-    return result;
+
+
+async function fetchAllProducts(url) {
+  const response = await fetch(url);
+  const data = await response.json();
+  return data;
 }
 
 async function fetchSingleProduct(id) {
@@ -15,9 +18,9 @@ async function fetchSingleProduct(id) {
     return result;
 }
 
+
 function renderSingleProductHTML(product){
     const {id , name, description, images } = product;
-
 
     const wrapper = document.createElement("a");
     wrapper.href = `./product/productDetails.html?id=${id}`;
@@ -43,11 +46,17 @@ function renderSingleProductHTML(product){
 }
 
 
+
+
+
+
+
 export {
     urlBase,
     wooCom,
     productBase,
+    productUrl,
     fetchAllProducts,
     fetchSingleProduct,
-    renderSingleProductHTML
+    renderSingleProductHTML,
 }

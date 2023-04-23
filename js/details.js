@@ -8,20 +8,17 @@ const id = params.get("id");
 
 async function renderProduct() {
     const product = await fetchSingleProduct(id); 
-    console.log(product)
 
     detailsWrapper.textContent = "";
-    // detailsWrapper.classList.add("overview-jacket")
-
+  
     const detailsImage = document.createElement("img");
     detailsImage.src = product.images[0].src;
     detailsImage.alt = product.images[0].alt;
 
-
     const overviewDetails = document.createElement("div");
-    // overviewDetails.classList.add("overview-details")   
-   
-    const heading = document.createElement("h2")
+    overviewDetails.classList.add("overview-details"); 
+
+    const heading = document.createElement("h2");
     heading.innerText = product.name;
     
     const productName = document.createElement("h3")
@@ -33,18 +30,15 @@ async function renderProduct() {
     const productInfo = document.createElement("p");
     productInfo.innerHTML = product.short_description;
 
-    
-
     const button = document.createElement("a");
     button.href = `./customerDetails.html?id=${id}`;
     button.classList.add("cta");
-    button.classList.add("cta-small");
+    button.classList.add("cta-API");
     button.innerText = "Shop";
 
-    
-    detailsWrapper.append(detailsImage , overviewDetails ,heading , productName, productInfo, price, button);
-    return detailsWrapper;
 
+    detailsWrapper.append(detailsImage , overviewDetails ,heading , productName, price, productInfo, button);
+    return detailsWrapper;
 }
 
 renderProduct();

@@ -1,47 +1,46 @@
-//this is script before import/export
-import { fetchAllProducts } from "./constant.js";
+import { fetchAllProducts, renderSingleProductHTML, productUrl,} from "./constant.js";
 
 const productList = document.querySelector(".product-list");
+const categories = document.querySelectorAll(".categories2");
 
 
+async function renderProducts(url) {
+  const products = await fetchAllProducts(url);
 
+  productList.textContent = "";
 
-
-
-//go through array 
-async function renderProducts() {
-    //fetch data
-    const products = await fetchAllProducts();
-    //loop through array with forEach function
-    products.forEach(product => {
-    console.log(products);
-    //give callback with an argument using Function renderSingleProduct()
-    const domItem = renderSingleProductHTML(product)
-    //domItem = "product-list"in html 
-    productList.append(domItem)
-    // append ==add to end, productList(const)(domItem = info from API)
-    })
-
+  products.forEach((product) => {
+    const domItem = renderSingleProductHTML(product);
+    productList.append(domItem);
+  });
 }
-renderProducts();
-
-// fetchAllProducts();
-// fetchSingleProduct(42)
+renderProducts(productUrl);
 
 
-// const detailsWrapper = document.querySelector(".overview-page")
-// const queryString = location.search;
-// const params = new URLSearchParams(queryString);
-// const id = params.get("id");
 
-// async function renderProduct() {
-//     const product = await fetchProduct(id);
-//     const productHTML = renderSingleProductHTML(product);
-//     detailsWrapper.textContent = ""
-//     detailsWrapper.append(productHTML)
-// }
+categories.forEach(function(category) {
+  category.onclick = function(event) {
+    let newUrl;
+    if (event.target.id === "featured") {
+      newUrl = productUrl + "?featured=true";
+    } else {
+      const categoryChosen = event.target.value;
+      newUrl = productUrl + `?category=${categoryChosen}`;
+    }
 
-// renderProduct();
+    productList.textContent = "";
+
+    renderProducts(newUrl);
+  };
+});
+
+
+
+
+
+
+
+
 
 
 
