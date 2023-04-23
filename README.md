@@ -13,4 +13,4 @@ Password: cpsrU0sApLXo3KVmex4Bw(xf
 
 ### Notes:
 - "Search-bar" and "Add to cart" function is not in use.
--  Payment- page the function don't work. (overview section is taken away)
+-  Payment- page the function don't work. (overview product section is taken away, was suppose to be like customerDetails-page)
