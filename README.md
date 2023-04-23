@@ -2,8 +2,10 @@
 
 ## Links
 
-⋅⋅* Github: https://github.com/chalund/rainydays2.git (public) 
-For this project Ive been working on branch: rainydays3 
+- Github: https://github.com/chalund/rainydays2.git (public) --
+For this project Ive been working on branch: rainydays3 --
+
+
 
 Netlify: https://lovely-madeleine-d047fe.netlify.app/index.html
 
