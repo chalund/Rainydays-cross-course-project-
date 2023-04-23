@@ -9,17 +9,14 @@ const id = params.get("id");
 
 async function renderSummary() {
     const product = await fetchSingleProduct(id);
-    console.log(product)
 
     summaryWrapper.textContent = "";
-
 
     const heading = document.createElement("h2");
     heading.innerText = product.name;
 
     const productName = document.createElement("h3")
     productName.innerHTML = product.description;
-
 
     const detailsImage = document.createElement("img");
     detailsImage.src = product.images[0].src;
@@ -30,6 +27,7 @@ async function renderSummary() {
 
     summaryWrapper.append(heading, productName,  detailsImage);
     return summaryWrapper;
+
 
 }
 renderSummary();
@@ -46,10 +44,13 @@ async function renderPrice () {
 
     priceWrapper.append(price);
     priceWrapper2.append(totalPrice);
+    return priceWrapper;
+    return priceWrapper2;
 
 }
 renderPrice();
 
 export {
     renderSummary,
+    renderPrice
 }

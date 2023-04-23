@@ -13,4 +13,4 @@ Password: cpsrU0sApLXo3KVmex4Bw(xf
 
 Notes:
 - "Searchbar" and "Add to cart" function is not in use.
-
+-  Payment- page the function don't work.
