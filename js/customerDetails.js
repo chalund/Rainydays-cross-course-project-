@@ -9,6 +9,7 @@ const id = params.get("id");
 
 async function renderSummary() {
     const product = await fetchSingleProduct(id);
+    console.log(product)
 
     summaryWrapper.textContent = "";
 
@@ -28,6 +29,7 @@ async function renderSummary() {
     price.innerText = product.prices.price + " " + "Kr";
 
     summaryWrapper.append(heading, productName,  detailsImage);
+    return summaryWrapper;
 
 }
 renderSummary();
@@ -47,3 +49,7 @@ async function renderPrice () {
 
 }
 renderPrice();
+
+export {
+    renderSummary,
+}

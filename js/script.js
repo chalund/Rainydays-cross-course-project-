@@ -18,21 +18,21 @@ renderProducts(productUrl);
 
 
 
-categories.forEach(function(category) {
-  category.onclick = function(event) {
-    let newUrl;
-    if (event.target.id === "featured") {
-      newUrl = productUrl + "?featured=true";
-    } else {
-      const categoryChosen = event.target.value;
-      newUrl = productUrl + `?category=${categoryChosen}`;
-    }
+// categories.forEach(function(category) {
+//   category.onclick = function(event) {
+//     let newUrl;
+//     if (event.target.id === "featured") {
+//       newUrl = productUrl + "?featured=true";
+//     } else {
+//       const categoryChosen = event.target.value;
+//       newUrl = productUrl + `?category=${categoryChosen}`;
+//     }
 
-    productList.textContent = "";
+//     productList.textContent = "";
 
-    renderProducts(newUrl);
-  };
-});
+//     renderProducts(newUrl);
+//   };
+// });
 
 
 

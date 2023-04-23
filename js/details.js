@@ -1,4 +1,4 @@
-import { fetchSingleProduct, renderSingleProductHTML } from "./constant.js";
+import { fetchSingleProduct} from "./constant.js";
 
 const detailsWrapper = document.querySelector(".overview-page")
 const queryString = location.search;

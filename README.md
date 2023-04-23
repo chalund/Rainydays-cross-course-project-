@@ -12,4 +12,5 @@ Username: Noroff
 Password: cpsrU0sApLXo3KVmex4Bw(xf 
 
 Notes:
-"Searchbar" and "Add to cart" function is not in use
+- "Searchbar" and "Add to cart" function is not in use.
+
