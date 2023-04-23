@@ -4,8 +4,9 @@
 - Netlify: https://lovely-madeleine-d047fe.netlify.app/index.html
 - Wordpress (product API): https://wordpress.charlottelund.no/wp-json/wc/store/products
 
-## Wordpress Admin
+
 ```
+## Wordpress Admin
 Username: Noroff
 Password: cpsrU0sApLXo3KVmex4Bw(xf 
 ```
