@@ -7,10 +7,10 @@
 
 ## General info
 This project have contains two assignments
- - My very first project
- - Interaction Design
+- My very first project
+- Interaction Design
  
-The first assignment was create a responsive website for a online shop, "Rainydays" who are selling men`s and women`s rain jackets.  
+The first assignment was create a responsive website for a online shop, "Rainydays" who are selling men's and women rain jackets.<br>  
 Interaction design is improvements on first website.
 
 
