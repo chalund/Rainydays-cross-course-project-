@@ -1,12 +1,19 @@
-# Rainydays - cross-course project
-![screenshot](./images/screenshot-rainydays.jpg)
+# Rainydays - My cross-course project
+![Screenshot](./images/screenshot-rainydays.jpg)
 
 ##Table of Contents
-* [Illustrations]()
-* [General info](#general-info)
+* [Screenshot](#Screenshot)
+* [General info](#General-info)
 
-## General info
-My very first project, create a website for a online shop, Rainydays who are selling men`s and women`s rain jackets.
+##General info
+This project have contains two assignments
+ - My very first project
+ - Interaction Design
+ 
+The first assignment was create a responsive website for a online shop, "Rainydays" who are selling men`s and women`s rain jackets.  
+Interaction design is improvements on first website.
+
+
 
 
 
