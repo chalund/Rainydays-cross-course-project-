@@ -1,11 +1,11 @@
 # Rainydays - My cross-course project
 ![Screenshot](./images/screenshot-rainydays.jpg)
 
-##Table of Contents
+## Table of Contents
 * [Screenshot](#Screenshot)
 * [General info](#General-info)
 
-##General info
+## General info
 This project have contains two assignments
  - My very first project
  - Interaction Design
