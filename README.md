@@ -19,7 +19,7 @@ Interaction design is improvements on website and some small functionality using
 
 
 ## Built with
-This project is built with
+This project is built using:
 - HTML & CSS
 - Javascript
 
@@ -27,14 +27,20 @@ This project is built with
 ### Installing
 ```
 1. Clone the repo
-git clone (https://github.com/chalund/Rainydays-cross-course-project-.git)
+git clone https://github.com/chalund/Rainydays-cross-course-project-.git
+
+### Running
+This project only contain static files, will run on all devices
 ```
+
 ## Links
-[First draft](https://cute-kringle-2228a8.netlify.app/)  
-[Updated version](https://joyful-lebkuchen-152596.netlify.app/)  
+[Link to site](https://cute-kringle-2228a8.netlify.app/)  
+[Link to updated version](https://joyful-lebkuchen-152596.netlify.app/)  
 [Prototype in Figma](https://www.figma.com/file/z3JyoUhScZ6TmH3drBav7n/rainydays?node-id=644%3A1015&t=y2AQgSH1W3XgHmRh-1 )
 
 ## Contact
+[My Github page](https://github.com/chalund)  
+[My LinkedIn page](https://www.linkedin.com/in/charlotte-lund-48419b249/)
 
 
 
