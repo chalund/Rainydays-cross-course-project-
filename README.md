@@ -27,7 +27,7 @@ This project is built with
 ### Installing
 ```
 1. Clone the repo
-git clone
+git clone https://github.com/chalund/Rainydays-cross-course-project-.git
 ```
 ## Links
 [First draft](https://cute-kringle-2228a8.netlify.app/)  
