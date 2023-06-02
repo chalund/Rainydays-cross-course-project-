@@ -3,7 +3,7 @@
 
 ## Table of Contents
 * [Screenshot] (#screenshot)
-* [General info](#general-info)
+* [General-info] (#general-info)
 * [Built with](#built-with)
 * [Getting started](#getting-started) 
 * [Contact] (#contact)
