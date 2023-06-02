@@ -2,8 +2,8 @@
 ![Screenshot](./images/screenshot-rainydays.jpg)
 
 ## Table of Contents
-* [Screenshot] (#screenshot)
-* [General-info] (#general-info)
+* [Screenshot] (#Screenshot)
+* [General info] (#General-info)
 * [Built with](#built-with)
 * [Getting started](#getting-started) 
 * [Contact] (#contact)
@@ -15,7 +15,6 @@ This project have contains two assignments
  
 The first assignment was create a responsive website for a online shop, "Rainydays" who are selling men's and women rain jackets. This include creating design for website and HTML & CSS.<br>  
 Interaction design is improvements on website and some small functionality using Javascript.
-
 
 
 ## Built with
