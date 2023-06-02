@@ -1,4 +1,4 @@
-# Rainydays - My cross-course project
+# Rainydays - The cross-course project
 ![Screenshot](./images/screenshot-rainydays.jpg)
 
 ## Table of Contents
@@ -29,7 +29,6 @@ This project is built using:
 ```
 git clone https://github.com/chalund/Rainydays-cross-course-project-.git
 ```
-
 ### Running
 This project only contain static files, will run on all devices
 
