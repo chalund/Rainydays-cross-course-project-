@@ -30,8 +30,8 @@ This project is built with
 git clone
 ```
 ## Links
-[First draft](https://cute-kringle-2228a8.netlify.app/)
-[Updated version](https://joyful-lebkuchen-152596.netlify.app/)
+[First draft](https://cute-kringle-2228a8.netlify.app/)  
+[Updated version](https://joyful-lebkuchen-152596.netlify.app/)  
 [Prototype in Figma](https://www.figma.com/file/z3JyoUhScZ6TmH3drBav7n/rainydays?node-id=644%3A1015&t=y2AQgSH1W3XgHmRh-1 )
 
 ## Contact
