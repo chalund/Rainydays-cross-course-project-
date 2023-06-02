@@ -2,11 +2,11 @@
 ![Screenshot](./images/screenshot-rainydays.jpg)
 
 ## Table of Contents
-* [Screenshot] (#screenshot)
-* [General info] (#General-info)
+* [Screenshot](#screenshot)
+* [General info](#General-info)
 * [Built with](#built-with)
 * [Getting started](#getting-started) 
-* [Contact] (#contact)
+* [Contact](#contact)
 
 ## General info
 This project have contains two assignments
