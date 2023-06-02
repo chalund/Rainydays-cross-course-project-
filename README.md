@@ -2,11 +2,11 @@
 ![Screenshot](./images/screenshot-rainydays.jpg)
 
 ## Table of Contents
-* [Screenshot] (#Screenshot)
-* [General info](#General-info)
-* [Built with](#Built-with)
-* [Getting started] (#Getting-started) 
-* [Contact] (#Contact)
+* [Screenshot] (#screenshot)
+* [General info](#general-info)
+* [Built with](#built-with)
+* [Getting started](#getting-started) 
+* [Contact] (#contact)
 
 ## General info
 This project have contains two assignments
@@ -24,9 +24,15 @@ This project is built with
 - Javascript
 
 ## Getting started
+### Installing
+```
+1. Clone the repo
+git clone
+```
 
 
 ## Contact
+
 
 
 
