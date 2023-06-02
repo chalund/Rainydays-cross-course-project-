@@ -28,10 +28,10 @@ This project is built using:
 ```
 1. Clone the repo
 git clone https://github.com/chalund/Rainydays-cross-course-project-.git
+```
 
 ### Running
 This project only contain static files, will run on all devices
-```
 
 ## Links
 [Link to site](https://cute-kringle-2228a8.netlify.app/)  
