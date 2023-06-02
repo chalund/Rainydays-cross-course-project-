@@ -2,7 +2,7 @@
 ![Screenshot](./images/screenshot-rainydays.jpg)
 
 ## Table of Contents
-* [Screenshot] (#Screenshot)
+* [Screenshot] (#screenshot)
 * [General info] (#General-info)
 * [Built with](#built-with)
 * [Getting started](#getting-started) 
