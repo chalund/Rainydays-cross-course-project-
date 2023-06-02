@@ -2,10 +2,10 @@
 ![Screenshot](./images/screenshot-rainydays.jpg)
 
 ## Table of Contents
-* [Screenshot](#Screenshot)
+* [Screenshot] (#Screenshot)
 * [General info](#General-info)
-* [Built with](#Built with)
-* [Getting started] (#Getting started) 
+* [Built with](#Built-with)
+* [Getting started] (#Getting-started) 
 * [Contact] (#Contact)
 
 ## General info
@@ -19,10 +19,15 @@ Interaction design is improvements on website and some small functionality using
 
 
 ## Built with
+This project is built with
+- HTML & CSS
+- Javascript
 
 ## Getting started
 
+
 ## Contact
+
 
 
 
