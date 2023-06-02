@@ -4,14 +4,26 @@
 ## Table of Contents
 * [Screenshot](#Screenshot)
 * [General info](#General-info)
+* [Built with](#Built with)
+* [Getting started] (#Getting started) 
+* [Contact] (#Contact)
 
 ## General info
 This project have contains two assignments
-- My very first project
-- Interaction Design
+* My very first project
+* Interaction Design
  
-The first assignment was create a responsive website for a online shop, "Rainydays" who are selling men's and women rain jackets.<br>  
-Interaction design is improvements on first website.
+The first assignment was create a responsive website for a online shop, "Rainydays" who are selling men's and women rain jackets. This include creating design for website and HTML & CSS.<br>  
+Interaction design is improvements on website and some small functionality using Javascript.
+
+
+
+## Built with
+
+## Getting started
+
+## Contact
+
 
 
 
