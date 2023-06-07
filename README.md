@@ -24,6 +24,8 @@ Create a prototype and make a responsive online shop Rainydays. Interaction desi
 <img src="./images/icons/icons8-javascript-48.png " alt="javascript icon" height="48" width="48" >
 <img src="./images/icons/icons8-wordpress-100.png " alt="wordpress icon" height="48" width="48" >
 
+![figma icon](./images/icons/icons8-figma-48.png){ width:48px ,height:48px }
+
 ## Getting started
 ### Installing
 1. Clone the repo
