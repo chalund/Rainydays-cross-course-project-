@@ -10,18 +10,18 @@
 * [Contact](#contact)
 
 ## General info
-This project have contains two assignments
-* My very first project
-* Interaction Design
+Rainy Days, a responsive eCommerce website integrated with WordPress WooCommerce API.
+
+This project have contains several assignments
+* Design, HTML & CSS and Interaction Design
+
+Create a prototype and make a responsive online shop Rainydays. Interaction design is improvements on first design, some small functionality using Javascript and fetch API from WordPress WooCommerce.
  
-The first assignment was create a responsive website for a online shop, "Rainydays" who are selling men's and women rain jackets. This include creating design for website and HTML & CSS.<br>  
-Interaction design is improvements on website and some small functionality using Javascript.
-
-
 ## Built with
 This project is built using:
 - HTML & CSS
 - Javascript
+- WordPress eCommerce
 
 ## Getting started
 ### Installing
