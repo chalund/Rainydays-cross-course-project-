@@ -19,8 +19,8 @@ Create a prototype and make a responsive online shop Rainydays. Interaction desi
  
 ## Built with
 This project is built using:
-![figma-icon](./images/icons/icons8-figma-48.png "Figma icon" height="48" width="48")
-![html-icon](./images/icons/icons8-html-48.png "html icon")
+![figma-icon]("./images/icons/icons8-figma-48.png" height="48" width="48")
+![html-icon]("./images/icons/icons8-html-48.png" "html icon")
 ![css-icon](./images/icons/icons8-css-100.png "css icon")
 ![javascript-icon](./images/icons/icons8-javascript-48.png "javascript icon")
 ![wordpress-icon](./images/icons/icons8-wordpress-100.png "WordPress icon")
