@@ -18,13 +18,13 @@ This project have contains several assignments
 Create a prototype and make a responsive online shop Rainydays. Interaction design is improvements on first design, some small functionality using Javascript and fetch API from WordPress WooCommerce.
  
 ## Built with
-<img src="./images/icons/icons8-figma-48.png" alt="figma icon" height="48" width="48" >
-<img src="./images/icons/icons8-html-48.png"  alt="html icon" height="48" width="48" >
-<img src="./images/icons/icons8-css-100.png" alt="css icon" height="48" width="48" >
-<img src="./images/icons/icons8-javascript-48.png " alt="javascript icon" height="48" width="48" >
-<img src="./images/icons/icons8-wordpress-100.png " alt="wordpress icon" height="48" width="48" >
+This project is built using:
+![figma-icon]("./images/icons/icons8-figma-48.png" height="48" width="48")
+![html-icon]("./images/icons/icons8-html-48.png" "html icon")
+![css-icon](./images/icons/icons8-css-100.png "css icon")
+![javascript-icon](./images/icons/icons8-javascript-48.png "javascript icon")
+![wordpress-icon](./images/icons/icons8-wordpress-100.png "WordPress icon")
 
-![figma icon](./images/icons/icons8-figma-48.png) { width:100% ,height:48px }
 
 ## Getting started
 ### Installing
