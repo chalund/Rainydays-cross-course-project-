@@ -13,7 +13,9 @@
 Rainy Days, a responsive eCommerce website integrated with WordPress WooCommerce API.
 
 This project have contains several assignments
-* Design, HTML & CSS and Interaction Design
+* Design
+* HTML & CSS
+* Interaction Design
 
 Create a prototype and make a responsive online shop Rainydays. Interaction design is improvements on first design, some small functionality using Javascript and fetch API from WordPress WooCommerce.
  
