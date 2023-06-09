@@ -10,7 +10,7 @@
 * [Contact](#contact)
 
 ## General info
-Rainydays, a responsive eCommerce website integrated with WordPress WooCommerce API.
+Rainy Days, a responsive eCommerce website integrated with WordPress WooCommerce API.
 
 This project have contains several assignments
 * Design, HTML & CSS and Interaction Design
@@ -19,12 +19,9 @@ Create a prototype and make a responsive online shop Rainydays. Interaction desi
  
 ## Built with
 This project is built using:
-![figma-icon](./images/icons/icons8-figma-48.png "figma icon")
-![html-icon](./images/icons/icons8-html-48.png "html icon")
-![css-icon](./images/icons/icons8-css-100.png "css icon")
-![javascript-icon](./images/icons/icons8-javascript-48.png "javascript icon")
-![wordpress-icon](./images/icons/icons8-wordpress-100.png "WordPress icon")
-
+- HTML & CSS
+- Javascript
+- WordPress eCommerce
 
 ## Getting started
 ### Installing
@@ -41,5 +38,5 @@ This project only contain static files, will run on all devices
 [Prototype in Figma](https://www.figma.com/file/z3JyoUhScZ6TmH3drBav7n/rainydays?node-id=644%3A1015&t=y2AQgSH1W3XgHmRh-1 )
 
 ## Contact
-[My Github page](https://github.com/chalund)  
-[My LinkedIn page](https://www.linkedin.com/in/charlotte-lund-48419b249/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://pe.linkedin.com/in/charlotte-lund-48419b249/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chalund)
