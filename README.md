@@ -10,7 +10,7 @@
 * [Contact](#contact)
 
 ## General info
-Rainy Days, a responsive eCommerce website integrated with WordPress WooCommerce API.
+Rainydays, a responsive eCommerce website integrated with WordPress WooCommerce API.
 
 This project have contains several assignments
 * Design, HTML & CSS and Interaction Design
