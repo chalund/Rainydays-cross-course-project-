@@ -40,5 +40,6 @@ This project only contain static files, will run on all devices
 [Prototype in Figma](https://www.figma.com/file/z3JyoUhScZ6TmH3drBav7n/rainydays?node-id=644%3A1015&t=y2AQgSH1W3XgHmRh-1 )
 
 ## Contact
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](chalund@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://pe.linkedin.com/in/charlotte-lund-48419b249/)
 [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/chalund)
