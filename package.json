@@ -1,0 +1,17 @@
+{
+  "name": "rainydays-cross-course-project-",
+  "version": "1.0.0",
+  "description": "![Screenshot](./images/screenshot-rainydays.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test-e2e",
+    "test-e2e": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.3.3",
+    "eslint": "^8.52.0",
+    "eslint-plugin-cypress": "^2.15.1"
+  }
+}
